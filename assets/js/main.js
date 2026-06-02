@@ -21,7 +21,40 @@ function initHeader() {
     link.addEventListener('click', () => nav.classList.remove('open'));
   });
 }
-function initCarousel() {}
+function initCarousel() {
+  const track = document.getElementById('voiceTrack');
+  const dots = document.querySelectorAll('.voice-dot');
+
+  if (!track || dots.length === 0) return;
+
+  let currentIndex = 0;
+  let startX = 0;
+  let isDragging = false;
+
+  function goTo(index) {
+    currentIndex = Math.max(0, Math.min(index, dots.length - 1));
+    if (window.innerWidth <= 768) {
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+  }
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => goTo(parseInt(dot.dataset.index)));
+  });
+
+  track.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    isDragging = true;
+  }, { passive: true });
+
+  track.addEventListener('touchend', e => {
+    if (!isDragging) return;
+    const diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) goTo(currentIndex + (diff > 0 ? 1 : -1));
+    isDragging = false;
+  });
+}
 function initScrollFade() {
   const heroBg = document.querySelector('.hero-bg');
   const heroContent = document.querySelector('.hero-content');
