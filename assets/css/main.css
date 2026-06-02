@@ -238,6 +238,7 @@ a {
 }
 
 .mission-text .section-title {
+  color: var(--color-white);
   margin: 8px 0 32px;
 }
 
@@ -245,6 +246,11 @@ a {
   font-size: 1rem;
   line-height: 1.9;
   color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 16px;
+}
+
+.mission-body:last-of-type {
+  margin-bottom: 0;
 }
 
 .mission-photo {
