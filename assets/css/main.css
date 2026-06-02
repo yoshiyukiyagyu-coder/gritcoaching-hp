@@ -146,6 +146,7 @@ a {
 .hero-bg {
   position: absolute;
   inset: 0;
+  background-color: var(--color-main);
   background-size: cover;
   background-position: center;
   transform: scale(1.05);
@@ -164,6 +165,7 @@ a {
   padding: 0 5%;
   max-width: 800px;
   color: var(--color-white);
+  text-align: left;
 }
 
 .hero-sub {
