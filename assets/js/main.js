@@ -3,3 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCarousel();
   initScrollFade();
 });
+
+function initHeader() {}
+function initCarousel() {}
+function initScrollFade() {}
