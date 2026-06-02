@@ -287,6 +287,116 @@ a {
   }
 }
 
+/* ===== COACH ===== */
+.coach {
+  background: var(--color-white);
+  padding: var(--section-padding);
+}
+
+.coach-inner {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.coach-photo-wrap {
+  position: relative;
+}
+
+.coach-photo-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 80%;
+  background: var(--color-main);
+}
+
+.coach-photo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+  margin: 20px 20px 0 20px;
+  max-width: calc(100% - 20px);
+}
+
+.coach-name {
+  margin: 16px 0 20px;
+}
+
+.coach-name-ja {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.coach-name-en {
+  display: block;
+  font-family: var(--font-en);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  margin-top: 4px;
+}
+
+.coach-divider {
+  width: 48px;
+  height: 3px;
+  background: var(--color-accent);
+  margin-bottom: 16px;
+}
+
+.coach-role {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.coach-credentials {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.coach-bio {
+  line-height: 1.9;
+  margin-bottom: 32px;
+}
+
+.coach-sns {
+  display: flex;
+  gap: 20px;
+}
+
+.coach-sns-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-main);
+  transition: color var(--transition);
+}
+
+.coach-sns-link:hover {
+  color: var(--color-accent);
+}
+
+@media (max-width: 768px) {
+  .coach-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .coach-photo-wrap {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 768px) {
   .header-nav {
     display: none;
