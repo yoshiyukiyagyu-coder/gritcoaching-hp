@@ -22,19 +22,20 @@ function initHeader() {
   });
 }
 function initCarousel() {
+  const carousel = document.getElementById('voiceCarousel');
   const track = document.getElementById('voiceTrack');
   const dots = document.querySelectorAll('.voice-dot');
 
-  if (!track || dots.length === 0) return;
+  if (!carousel || !track || dots.length === 0) return;
 
   let currentIndex = 0;
   let startX = 0;
-  let isDragging = false;
 
   function goTo(index) {
     currentIndex = Math.max(0, Math.min(index, dots.length - 1));
     if (window.innerWidth <= 768) {
-      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      const cardWidth = carousel.offsetWidth;
+      track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
     }
     dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
   }
@@ -45,14 +46,19 @@ function initCarousel() {
 
   track.addEventListener('touchstart', e => {
     startX = e.touches[0].clientX;
-    isDragging = true;
   }, { passive: true });
 
   track.addEventListener('touchend', e => {
-    if (!isDragging) return;
     const diff = startX - e.changedTouches[0].clientX;
     if (Math.abs(diff) > 50) goTo(currentIndex + (diff > 0 ? 1 : -1));
-    isDragging = false;
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      track.style.transform = '';
+      currentIndex = 0;
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === 0));
+    }
   });
 }
 function initScrollFade() {
