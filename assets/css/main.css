@@ -310,19 +310,18 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%;
-  height: 80%;
+  width: 85%;
+  height: 90%;
   background: var(--color-main);
 }
 
 .coach-photo {
   position: relative;
   z-index: 1;
-  width: 100%;
+  width: calc(100% - 40px);
   object-fit: cover;
   aspect-ratio: 3/4;
   margin: 20px 20px 0 20px;
-  max-width: calc(100% - 20px);
 }
 
 .coach-name {
