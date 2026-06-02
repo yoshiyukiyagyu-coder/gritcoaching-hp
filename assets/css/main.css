@@ -816,6 +816,70 @@ a {
   }
 }
 
+/* ===== COMPANY ===== */
+.company {
+  background: var(--color-white);
+  padding: var(--section-padding);
+}
+
+.company-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.company-inner .section-title {
+  margin: 8px 0 40px;
+}
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.company-table tr {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.company-table tr:first-child {
+  border-top: 1px solid #e8e8e8;
+}
+
+.company-table th,
+.company-table td {
+  padding: 16px 0;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.company-table th {
+  width: 160px;
+  font-weight: 700;
+  color: var(--color-main);
+  vertical-align: top;
+}
+
+.company-table td {
+  color: #555;
+}
+
+@media (max-width: 480px) {
+  .company-table th,
+  .company-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .company-table th {
+    padding-bottom: 4px;
+    border-bottom: none;
+  }
+
+  .company-table td {
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+}
+
 /* ===== CTA ===== */
 .cta {
   background: linear-gradient(135deg, var(--color-accent), #bb0033);
