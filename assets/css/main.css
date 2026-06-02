@@ -396,6 +396,85 @@ a {
   }
 }
 
+/* ===== BUSINESS ===== */
+.business {
+  background: var(--color-main);
+  padding: var(--section-padding);
+}
+
+.business-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.business-header {
+  margin-bottom: 48px;
+}
+
+.business-header .section-title {
+  color: var(--color-white);
+  margin-top: 8px;
+}
+
+.business-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: rgba(255,255,255,0.1);
+}
+
+.business-card {
+  padding: 40px 32px;
+  background: var(--color-main);
+  transition: background var(--transition);
+}
+
+.business-card:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.business-icon {
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
+
+.business-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: 12px;
+}
+
+.business-desc {
+  font-size: 0.9rem;
+  color: var(--color-gray-text);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.business-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  transition: opacity var(--transition);
+}
+
+.business-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .business-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .business-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 768px) {
   .header-nav {
     display: none;
