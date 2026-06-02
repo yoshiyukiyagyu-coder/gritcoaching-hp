@@ -22,4 +22,18 @@ function initHeader() {
   });
 }
 function initCarousel() {}
-function initScrollFade() {}
+function initScrollFade() {
+  const heroBg = document.querySelector('.hero-bg');
+  const heroContent = document.querySelector('.hero-content');
+
+  if (!heroBg) return;
+
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    const heroHeight = document.querySelector('.hero').offsetHeight;
+    if (scrollY < heroHeight) {
+      heroBg.style.transform = `scale(1.05) translateY(${scrollY * 0.3}px)`;
+      heroContent.style.opacity = 1 - (scrollY / heroHeight) * 1.5;
+    }
+  }, { passive: true });
+}
