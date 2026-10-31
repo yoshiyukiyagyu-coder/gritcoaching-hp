@@ -839,6 +839,13 @@ a {
   margin-bottom: 40px;
 }
 
+.sns-account {
+  font-family: var(--font-en);
+  font-size: 0.9rem;
+  color: var(--color-gray-text);
+  margin-top: 8px;
+}
+
 .sns-follow {
   display: inline-flex;
   align-items: center;
@@ -866,8 +873,8 @@ a {
 
 .youtube-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }
 
 .youtube-card {
@@ -877,7 +884,7 @@ a {
 
 .youtube-thumb {
   position: relative;
-  aspect-ratio: 16/9;
+  aspect-ratio: 9/16;
   background: linear-gradient(135deg, #1a1a4a, #000020);
   border-radius: var(--border-radius);
   overflow: hidden;
@@ -896,6 +903,7 @@ a {
 
 .youtube-play {
   position: relative;
+  opacity: 0.9;
   width: 64px;
   height: 44px;
   background: #ff0000;
@@ -960,7 +968,12 @@ a {
   }
 
   .youtube-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .youtube-title {
+    font-size: 0.85rem;
   }
 
   .instagram-grid {
