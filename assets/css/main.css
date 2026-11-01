@@ -782,6 +782,7 @@ a {
 .blog-thumb-bos::after { width: 52px; height: 52px; background: #e7b84b; border-color: #e7b84b; }
 .blog-thumb-bos span { position: relative; z-index: 1; }
 
+
 .blog-card:hover .blog-thumb img {
   transform: scale(1.05);
 }
