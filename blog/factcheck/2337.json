@@ -1,0 +1,246 @@
+{
+ "id": 2337,
+ "title": "BoS理論とは?サッカーのドイツ語14語と原則を元Jリーガーが解説",
+ "items": [
+  {
+   "category": "人物・体制",
+   "what_to_check": "書名・出版社・刊行年月が正しいか確認する。",
+   "current_text": "河岸貴 著／カンゼン／2023年11月刊",
+   "reference": "https://www.kanzen.jp/book/b10040205.html",
+   "source_check": "一致（書名『サッカー「BoS理論」 ボールを中心に考え、ゴールを奪う方法』、出版年月日2023/11/06、ISBN 9784862557025）",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "カンゼン公式(https://www.kanzen.jp/book/b10040205.html)で書名『サッカー「BoS理論」 ボールを中心に考え、ゴールを奪う方法』、出版年月日2023/11/06、ISBN 9784862557025を確認"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "本が『フットボール批評』の連載「現代サッカーの教科書」を加筆・修正したものか確認する。",
+   "current_text": "もとは季刊誌『フットボール批評』の連載「現代サッカーの教科書」で、それを加筆・修正し、書き下ろしを加えて一冊にまとめたものです。",
+   "reference": "https://www.kanzen.jp/book/b10040205.html",
+   "source_check": "確認できず: 出版社ページに連載への言及なし",
+   "priority": "中",
+   "resolution": "表現を弱めた",
+   "resolution_note": "出版社ページに連載への言及なし。「もとは季刊誌『フットボール批評』の連載「現代サッカーの教科書」で、それを加筆・修正し…一冊にまとめたものです」の一文を削除"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "河岸貴さんの経歴（2004年に渡独、アカデミーとトップチームで指導）を確認する。",
+   "current_text": "河岸さんは2004年にドイツへ渡り、VfBシュトゥットガルトのアカデミーやトップチームで指導者を務めた方です。",
+   "reference": "https://www.kanzen.jp/book/b10040205.html",
+   "source_check": "確認できず: 出版社ページは「シュトゥットガルトで指導者、スカウトを歴任」とのみ記載。渡独年・トップチームでの指導は記載なし",
+   "priority": "高",
+   "resolution": "表現を弱めた",
+   "resolution_note": "出版社ページは「シュトゥットガルトで指導者、スカウトを歴任」のみ。「河岸さんは2004年にドイツへ渡り、VfBシュトゥットガルトのアカデミーやトップチームで指導者を務めた方です」→「河岸貴は、ドイツのVfBシュトゥットガルトで指導者やスカウトを務めた人物です」"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "BoS理論の由来とされる「ヴュルテンベルクサッカー協会」の名称と記述を本で確認する。",
+   "current_text": "BoS理論はヴュルテンベルクサッカー協会の指導者講習会で使われる資料を、日本語に訳して加工したものなんです。",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "本からの引用文とページ番号（p.8）が原文どおりか確認する。",
+   "current_text": "「『ボールを中心に考え、サッカーをする』、それが『BoS理論』です。」(同書 p.8)",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(p.8の引用)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "本からの引用文とページ番号（p.93）が原文どおりか確認する。",
+   "current_text": "「曖昧なプレス、曖昧な帰陣、曖昧な陣形ではもはや現代サッカーには通用しません。」(同書 p.93)",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(p.93の引用)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "本からの引用文とページ番号（p.163）が原文どおりか確認する。",
+   "current_text": "「決して相手のミス待ちではありません。」(同書 p.163)",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(p.163の引用)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "本からの引用文とページ番号（p.147）が原文どおりか確認する。",
+   "current_text": "「結局のところ、スペースはシュートをしません。シュートをするのは相手選手です。」(同書 p.147)",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(p.147の引用)"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "ドイツ語14語の綴りとカタカナ読みが本の巻末一覧と一致しているか確認する（例: Ordnung「オールドヌング」、Auslösen「アウスルゥーゼン」）。",
+   "current_text": "5. Ordnung(オールドヌング)",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(巻末ドイツ語一覧の綴り・読み)"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "BoSの正式表記「Das Ballorientierte Spiel」と読み「ベーオーエス」を確認する（2323は「Ballorientiertes Spiel」）。",
+   "current_text": "1. Das Ballorientierte Spiel(ダス・バルオリエンティールテ・シュピール)",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "出版社ページの内容紹介に \"Das Ballorientierte Spiel\" と記載。読み「ベーオーエス」は書籍本文での照合が必要だが、正式表記は一致。2323側をこの表記に統一"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「Der Kreislauf des Ballgewinnspiel」の綴りを本の表記どおりか確認する（ドイツ語文法上は属格で -s が付く形も考えられる）。",
+   "current_text": "本の口絵にもある「Der Kreislauf des Ballgewinnspiel(デア・クライスラウフ・デス・バルゲヴィンシュピール)」",
+   "reference": "https://www.kanzen.jp/book/b10040205.html",
+   "source_check": "一致（出版社ページの目次5章に「Der Kreislauf des Ballgewinnspiel：ボールを奪うプレーの循環」と記載）",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "出版社ページの目次5章に「Der Kreislauf des Ballgewinnspiel：ボールを奪うプレーの循環」と記載(書籍表記どおり)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "「5秒以内」「10メートルほどダッシュ」という数値が本の記述どおりか確認する。",
+   "current_text": "目的は、できる限り早く、5秒以内に奪い返して素早くゴールを目指すこと。",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(5秒以内・10メートル)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "ゲーゲンプレスの4層（ゾーン1〜4）の説明が本の記述どおりか確認する。",
+   "current_text": "球際の「ゾーン1」、その後ろで網を張る「ゾーン2」、相手FWに起点を作らせない「ゾーン3」、最後の砦のGKが「ゾーン4」。",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(ゾーン1〜4)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "プレッシングトリガーが本で「8つ」挙げられているか確認する。",
+   "current_text": "本には長い距離のパス、浮き球やバックパス、相手の技術的ミス、相手のスローインなど8つが挙げられています。",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(プレッシングトリガー8つ)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "中盤プレスの位置（約2メートル）と約22メートルのコンパクトな陣形という数値が本の記述どおりか確認する。",
+   "current_text": "その間を約22メートルのコンパクトな陣形にする、という目安が示されています。",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "書籍本文での照合が必要。Web上(カンゼン公式 https://www.kanzen.jp/book/b10040205.html 等)では本文を確認できず。元記事から引き継いだ書籍準拠の記述のため本文は変更せず(約2メートル・約22メートル)"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "奪い返しの目安が2323の「3〜5秒」「約60m/約15m」と矛盾して読まれないか確認する。",
+   "current_text": "それぞれが10メートルほどダッシュして奪いに行くほうが、自陣まで全力で戻るより断然エコノミックだ、とも書かれています。",
+   "reference": "『サッカー「BoS理論」』（河岸貴、カンゼン）本文（URLなし）",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "2323の「3〜5秒」「約60m/約15m」は根拠未確認のため2323側で数値を削除済み。矛盾は解消"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "河岸さん監修で「オリジナル講義資料」を渡しているという提供内容を確認する。",
+   "current_text": "河岸さん監修のBoS理論のオリジナル講義資料もお渡ししています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "講義資料の提供は社内情報。敬称のみ削除(「河岸さん監修」→「河岸貴監修」)"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "保崎淳コーチの経歴を「複数クラブ」とするか「4クラブ以上」（2323・2353・2006）に揃えるか確認する。",
+   "current_text": "普段のトレーニングは、Jリーグの複数クラブでプレーした保崎淳がメインコーチとして担当しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "本文は「Jリーグの複数クラブでプレー」でクライアント決定2と一致"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "プログラム名と月間サイクル（オンライン講座→ピッチ→ゲームデイ）が現行どおりか確認する。",
+   "current_text": "月の始めにオンライン講座で戦術テーマを映像と図解で学び、2〜3週目のピッチトレーニングで体現し、4週目のゲームデイで試す、というサイクルです。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "プログラム内容・月間サイクルは社内情報。変更なし"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "プログラム名の表記を確認する（見出しは「GRITcoaching U15インテリジェンス」、本文は「グリットコーチング・インテリジェンスU15」）。",
+   "current_text": "GRITcoaching U15インテリジェンスで、BoS理論を体で覚える",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(書籍で照合)",
+   "resolution_note": "見出しの「GRITcoaching U15インテリジェンス」と本文の正式名「グリットコーチング・インテリジェンスU15」の統一はクライアント判断が必要。変更なし"
+  },
+  {
+   "category": "日程・場所",
+   "what_to_check": "対象・曜日・時間・会場が現行どおりか確認する。",
+   "current_text": "対象は中学生男子(中1〜中3)で、毎週木曜日の19:00〜21:00、スポルティーボ南与野で活動しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "クライアント決定3に従い「中学生男子」→「中学生男女」(あわせて「中学生向けプログラム」→「中学生男女向けプログラム」)。日時・会場は変更なし"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "ドイツのクラブへの練習参加の案内を現在も行っているか確認する。",
+   "current_text": "優秀な選手には、ドイツのクラブへの練習参加のご案内もしています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "ドイツのクラブへの練習参加案内は社内情報。変更なし"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "LINE申込リンクが有効で正しい申込先か確認する。",
+   "current_text": "LINEで無料体験を申し込む",
+   "reference": "https://s.lmes.jp/landing-qr/2005957649-Lx6O9Wo7?uLand=tfTxc5",
+   "source_check": "確認できず: 申込用リンクのため本文照合の対象外（手動でリンク動作を確認）",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "REWRITE_RULES.mdで指定された全CTA共通のLINE URLと一致"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "Amazonの商品リンク（ASIN 4862557023）が正しい書籍を指しているか確認する。",
+   "current_text": "Amazonで見る",
+   "reference": "https://www.amazon.co.jp/dp/4862557023",
+   "source_check": "確認できず: Amazonが503を返したため取得できず（ISBN-10はカンゼン掲載のISBN 9784862557025と対応）",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "ISBN-10 4862557023 はカンゼン掲載のISBN 9784862557025に対応(Amazon /dp/ はISBN-10で書籍を指す)"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "id": 2353,
+ "title": "小学生サッカーの当たり負け対策|原因と体の使い方を元Jリーガーが解説",
+ "items": [
+  {
+   "category": "統計・研究",
+   "what_to_check": "Sasanoほか(2020)の対象(4競技・約7,800人・25年)が正しいか確認する。",
+   "current_text": "サッカーや野球など4競技の日本の男子プロ選手(約7,800人)を25年にわたって調べた研究では",
+   "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538493/",
+   "source_check": "一致(サッカー・野球・バスケ・バレーの7,805人、1993〜2018年。※URLはpmc.ncbi.nlm.nih.govへリダイレクト、本文はEurope PMC経由で確認)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "Sasano et al. 2020: サッカー・野球・バスケ・バレーの7,805人、1993〜2018年。https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538493/"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "Jリーガーの4〜6月生まれが1〜3月生まれの約2倍という数値を確認する。",
+   "current_text": "Jリーガーは4〜6月生まれが1〜3月生まれのおよそ2倍いるという結果が出ています",
+   "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538493/",
+   "source_check": "一致(Table1サッカー: Q1/Q4=129/59, 277/109, 331/139, 467/227 で約2.1〜2.5倍)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "同論文Table1 サッカーQ1/Q4 約2.1〜2.5倍。https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538493/"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "相対年齢効果の差が時代とともに小さくなっているという記述を確認する。",
+   "current_text": "同じ研究では、その差は時代とともに小さくなってきていることも示されています。",
+   "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538493/",
+   "source_check": "一致(サッカー・野球・バレーで効果量が経時的に減少。バスケは減少せず)",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "同論文でサッカーの効果量は経時的に減少。https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538493/"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "Bezuglovほか(2023)の対象(ロシアの強豪アカデミー、12〜17歳、678人)と結果を確認する。",
+   "current_text": "ロシアの強豪アカデミーに所属する12〜17歳の選手678人を調べた研究では、早く生まれた選手ほど体の成熟は進んでいたものの、筋力やスピード、サッカーの技術には有意な差がなかった",
+   "reference": "https://doi.org/10.3390/sports11090179",
+   "source_check": "一致(ロシアの8つの主要アカデミー、678人、12〜17歳。成熟度は早生まれが高いが筋力・スピード・技術に有意差なし。※MDPIは403のためEurope PMCの抄録で確認)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "Bezuglov et al. 2023 Sports 11(9):179、ロシア主要8アカデミー・678人・12〜17歳、筋力・スピード・技術に有意差なし。https://doi.org/10.3390/sports11090179"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "JFAハンドブックの「今までのその子と比べ」という趣旨の引用を確認する。",
+   "current_text": "U-8/U-10年代のハンドブックで、子どもの発育発達には個人差があるので、他の子と比べず「今までのその子と比べ」てほしいと伝えています。",
+   "reference": "https://jfa.jp/youth_development/players_first/pdf/u8u10.pdf",
+   "source_check": "一致(「こどもたちの発育発達には、個人差があります。他のこどもと比べないで…今までのその子と比べ、どれだけ伸びたかに目を向けましょう」)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "JFAハンドブックに「他のこどもと比べないで…今までのその子と比べ、どれだけ伸びたかに目を向けましょう」。https://jfa.jp/youth_development/players_first/pdf/u8u10.pdf"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "谷真一郎氏の当時の肩書きと、大転子で当たることを勧めた記事内容を確認する。",
+   "current_text": "当時ヴァンフォーレ甲府のフィジカルコーチだった谷真一郎さんも、サカイクの記事で、肩から当たりに行くのではなく、お尻の横の骨(大転子)のあたりで当たることを勧めています。",
+   "reference": "https://www.sakaiku.jp/column/exercise/2014/007720.html",
+   "source_check": "一致(記事は2014年公開、肩書き「ヴァンフォーレ甲府のフィジカルコーチ」。「大転子…お尻の横で当たりにいきます」)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "サカイク記事(2014)で肩書き・大転子の記述を確認。https://www.sakaiku.jp/column/exercise/2014/007720.html 。敬称「さん」のみ削除(A-6)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "AAP 2020年の報告内容(適切な指導・監督下で子どもの筋トレは安全で有益)を確認する。",
+   "current_text": "米国小児科学会(AAP)の2020年の報告や国際的な専門家のコンセンサスでは、適切な指導・監督のもとであれば、子どもの筋力トレーニングは安全で有益だとされています。",
+   "reference": "https://www.healthychildren.org/English/news/Pages/Guidance-on-Resistance-Training-for-Children.aspx",
+   "source_check": "一致(2020年5月AAP。適切な監督下で全年齢の子どもが恩恵を受けられる旨。「安全」という語の直接記載はページ上確認できず。「国際的な専門家のコンセンサス」はURLなしで未確認)",
+   "priority": "中",
+   "resolution": "表現を弱めた",
+   "resolution_note": "AAPページは「Children of all ages with proper supervision can benefit from resistance training」で「安全」の直接記載なし、「国際的な専門家のコンセンサス」は出典未確認。本文を「適切な指導・監督のもとであれば、子どもは年齢を問わず筋力トレーニングの恩恵を受けられる」に変更し、コンセンサスへの言及を削除。FAQ回答も同様に修正。https://www.healthychildren.org/English/news/Pages/Guidance-on-Resistance-Training-for-Children.aspx"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "青森県スポーツ科学センターの引用文言を確認する。",
+   "current_text": "青森県スポーツ科学センターが「成長に悪影響を及ぼすことを裏付ける科学的根拠はこれまで存在していません」と紹介しています。",
+   "reference": "https://www.aiss.pref.aomori.jp/column/R5%E5%B9%B4%E5%BA%A6/202312.pdf",
+   "source_check": "一致(Column No.42、2023年12月)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "青森県スポーツ科学センター Column No.42(2023年12月)で引用文言一致。https://www.aiss.pref.aomori.jp/column/R5%E5%B9%B4%E5%BA%A6/202312.pdf"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "競技規則第12条の反則の表現(「抑える」の表記を含む)が競技規則の文言と合っているか確認する。",
+   "current_text": "競技規則(第12条)では、相手を押す・抑える・つかむといった行為は反則です。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "修正",
+   "resolution_note": "競技規則2025/26(JFA和訳)第12条の直接フリーキック: 「押す。」「相手競技者を押さえる。」と記載、「つかむ」の語はなし。「押す・抑える・つかむ」→「押す・押さえる」に修正(本文・FAQ)。参照: https://jfa.jp/laws (2025/26冊子 https://www.sjfl.tokyo/dl/2026/lawsofthegame_202526.pdf p.109)"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「JFAもこの年代をゴールデンエイジとして重視」と神経系発達の説明が正確か確認する。",
+   "current_text": "神経系の発達によって筋力を高めたり、動きのコツを覚えたりしやすい時期と言われています。JFA もこの年代を「ゴールデンエイジ」として重視しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "表現を弱めた",
+   "resolution_note": "JFAハンドブックに「U-10〜U-12年代は…動作習得に最も有利な時期」「ゴールデンエイジ」と記載(https://jfa.jp/youth_development/players_first/pdf/u8u10.pdf)。「神経系の発達によって筋力を高めやすい」は未確認のため削除し、「動きのコツを覚えやすい時期」+JFAの記述に合わせた表現に変更"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "早生まれと4月生まれで「ほぼ1年分」の成長差という表現を確認する。",
+   "current_text": "同じ学年でも4月生まれの子とはほぼ1年分の成長の差があります。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "表現を弱めた",
+   "resolution_note": "「ほぼ1年分の成長の差」は成長量としては未確認。月齢差として「最大で約1年の月齢差」に変更(2351と同表現)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "小学生コースの名称「フィジカルスキル強化」と津越智雄氏の監修体制を確認する。",
+   "current_text": "GRITcoaching の小学生コース(フィジカルスキル強化)は、元日本代表フィジカルコーチの津越智雄さんにメニューを監修していただいています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "コース名・監修体制は社内情報のため未変更。敬称「さん」のみ削除(A-6)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "保崎淳氏の経歴「Jリーグ4クラブ以上でプレー」とメインコーチであることを確認する。",
+   "current_text": "普段のトレーニングは、Jリーグ4クラブ以上でプレーした元Jリーガーの保崎淳がメインコーチとして担当しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "「Jリーグ4クラブ以上でプレー」→「Jリーグの複数クラブでプレー」(A-2)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "「元Jリーガーのコーチが直接お話しします」が無料体験で実際に可能か確認する。",
+   "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。無料体験はLINEから申し込めます。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "途中CTAを「体験では、元Jリーガーでメインコーチの保崎淳が、お子さんの今の動きを見て直接お話しします。」に修正(クライアント決定A-1:無料体験で話すのは保崎淳)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "GRITcoaching設立の動機の記述が代表の意向どおりか確認する。",
+   "current_text": "僕が GRITcoaching を立ち上げたのは、日本のサッカースクールを見ていて、サッカーに偏った動きばかりで身体操作がおろそかな子が多いと感じたからでした。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "代表の設立動機(個人の考え)。未変更"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "保崎淳氏の経歴表現を記事間で統一するか確認する。",
+   "current_text": "Jリーグ4クラブ以上でプレーした元Jリーガーの保崎淳",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(2337は「複数クラブ」、2346・2351等は「元Jリーガー」のみ)",
+   "priority": "低",
+   "resolution": "修正",
+   "resolution_note": "A-2により「複数クラブ」に統一済み"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "津越智雄氏の敬称を記事間で統一するか確認する。",
+   "current_text": "元日本代表フィジカルコーチの津越智雄さんにメニューを監修していただいています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(2351・2001・2031・2395・2412は呼び捨て)",
+   "priority": "低",
+   "resolution": "修正",
+   "resolution_note": "「津越智雄さん」→「津越智雄」(A-6)。谷真一郎の「さん」も削除"
+  }
+ ]
+}

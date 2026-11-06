@@ -1,0 +1,206 @@
+{
+ "id": 2346,
+ "title": "子供が「サッカーを辞めたい」と言ったら|元Jリーガーが教える親の対応",
+ "items": [
+  {
+   "category": "統計・研究",
+   "what_to_check": "Aspen Institute調査の実施年・対象年齢・人数が正しいか確認する。",
+   "current_text": "アメリカの Aspen Institute などが2025年に10〜17歳の約3,800人を対象に行った調査でも",
+   "reference": "https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings",
+   "source_check": "一致(2025年10〜12月実施、10〜17歳3,827人。Utah State Univ.・Louisiana Tech Univ.と共同)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "Project Play公式ページで確認: 2025年10/1〜12/1実施、10〜17歳3,827人(Utah State Univ.・Louisiana Tech Univ.と共同)。https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "辞めた子が嫌だった点「十分うまくない」29%・指導者の問題21%の数値を確認する。",
+   "current_text": "「自分は十分うまくない」と感じること(29%)や指導者の問題(21%)が挙がっています",
+   "reference": "https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings",
+   "source_check": "一致(\"I'm not good enough\" 29%、\"Bad coaching\" 21%。いずれも辞めた子の「最も嫌だった点」)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "同ページで確認: 辞めた子の最も嫌だった点 \"I'm not good enough\" 29%、\"Bad coaching\" 21%。https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "「親にやらされた」辞めた子21%・続けている子9%の数値を確認する。",
+   "current_text": "「やりたくないのに親にやらされた」と答えた子は、辞めた子で21%、続けている子では9%でした。",
+   "reference": "https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings",
+   "source_check": "一致",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "同ページで確認: 親にやらされた 辞めた子21%・続けている子9%。https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "「他の子と比べられた」が辞めた子で多いという記述を確認する。",
+   "current_text": "「他の子と比べられた」も、辞めた子のほうが多くなっています。",
+   "reference": "https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings",
+   "source_check": "一致(辞めた子18%、続けている子13%)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "同ページで確認: 他の子と比べられた 辞めた子18%・続けている子13%。https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "JFA暴力等根絶相談窓口の名称・対象・通報方法(Webフォーム)が最新か確認する。",
+   "current_text": "JFA 暴力等根絶相談窓口:JFAに登録しているチームの活動で起きた暴力・暴言・威圧などを、本人や家族が通報できます(Webフォーム)。",
+   "reference": "https://jfa.jp/violence_eradication/",
+   "source_check": "一致(利用者は被害者・家族のほか関係者・代理人等も可。ページに「2026年1月1日からご利用ください」と新フォームの記載あり)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "JFA公式で確認: 登録チームの活動現場での暴力・暴言・威圧等が対象、被害者本人・家族(関係者・代理人等も可)が通報フォームで通報可。https://jfa.jp/violence_eradication/"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "24時間子供SOSダイヤルの名称表記・電話番号・通話無料・対応時間を確認する。",
+   "current_text": "24時間子供SOSダイヤル(文部科学省):0120-0-78310(通話無料)。いじめなど子供のSOS全般に、夜間・休日も対応しています。",
+   "reference": "https://www.mext.go.jp/a_menu/shotou/seitoshidou/06112210.htm",
+   "source_check": "不一致: 公式ページの名称表記は「24時間こどもSOSダイヤル」。番号0120078310・通話無料・「24時間」は一致(「夜間・休日」の明記はページ上なし)",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "文科省ページの表記「24時間こどもSOSダイヤル(通話無料)」に名称を修正。「夜間・休日も対応」はページに明記がないため「24時間受け付けています」に変更。https://www.mext.go.jp/a_menu/shotou/seitoshidou/06112210.htm"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "こどもの人権110番の電話番号・通話無料・受付時間を確認する。",
+   "current_text": "こどもの人権110番(法務省):0120-007-110(通話無料・平日8:30〜17:15)。いじめや体罰などの相談ができます。",
+   "reference": "https://www.moj.go.jp/JINKEN/jinken112.html",
+   "source_check": "一致(番号・平日8:30〜17:15・いじめ/体罰)。ただし0120番号の「通話無料」の明記はページ上確認できず。全国強化週間(2026/8/28〜9/3)は時間延長の記載あり",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "法務省ページで番号0120-007-110・平日8:30〜17:15・いじめ/体罰の相談を確認。「通話無料」の明記はなく「相談は無料」とあるため「相談無料」に修正。https://www.moj.go.jp/JINKEN/jinken112.html"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「24時間子供SOSダイヤル」の表記を公式の「こども」表記に合わせるか確認する。",
+   "current_text": "24時間子供SOSダイヤル(文部科学省)",
+   "reference": "https://www.mext.go.jp/a_menu/shotou/seitoshidou/06112210.htm",
+   "source_check": "不一致: 公式表記は「24時間こどもSOSダイヤル」",
+   "priority": "中",
+   "resolution": "修正",
+   "resolution_note": "「24時間子供SOSダイヤル」→「24時間こどもSOSダイヤル」(文科省公式表記)。https://www.mext.go.jp/a_menu/shotou/seitoshidou/06112210.htm"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "JFAが暴力・暴言の根絶を掲げ専用相談窓口を設けているという記述を確認する。",
+   "current_text": "JFA(日本サッカー協会)も暴力や暴言の根絶を掲げていて、専用の相談窓口を設けています。",
+   "reference": "https://jfa.jp/violence_eradication/(後段のリンク)",
+   "source_check": "一致(暴力等根絶相談窓口として通報フォームあり)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "JFA公式に暴力等根絶相談窓口(通報フォーム)あり。https://jfa.jp/violence_eradication/"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "グリットの定義とダックワース氏の研究に由来する説明が正確か確認する。",
+   "current_text": "心理学者アンジェラ・ダックワースさんの研究で知られるようになった言葉で、「長期的な目標に向けた情熱と粘り強さ」を意味します。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "Duckworth et al. (2007) JPSP 論文題名・定義「Grit: perseverance and passion for long-term goals」と一致。https://doi.org/10.1037/0022-3514.92.6.1087 。あわせて敬称「さん」を削除(A-6)"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "ダックワース氏の家族ルール(区切りまでやる・自分で選ぶ)の紹介内容が原典どおりか確認する。",
+   "current_text": "「辞めてもいい。でも、シーズンの終わりなど区切りのいいところまではやる。そして、何に取り組むかは自分で選ぶ」という考え方を紹介しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "Character Lab(ダックワース設立団体)掲載の著書『Grit』抜粋(pp.241-242)で確認: Hard Thing Rule「You can quit. But you can't quit until the season is over」「You get to pick your hard thing」。https://characterlab.org/resources/grit-the-power-of-passion-and-perseverance/ 。敬称「さん」削除(A-6)"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "自己決定理論の「自律性」の説明が適切か確認する。",
+   "current_text": "心理学の自己決定理論でも、「自分で選んでいる」という感覚(自律性)が、内側からのやる気を支えると考えられています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "自己決定理論公式サイト: 自律性は基本的心理欲求の一つで、自律性等の支えが最も自発的で質の高い動機づけを育むとある。https://selfdeterminationtheory.org/theory/"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "津越智雄氏の肩書き(元日本代表フィジカルコーチ)と小学生メニュー監修の体制を確認する。",
+   "current_text": "小学生は元日本代表フィジカルコーチの津越智雄さんが監修した「フィジカル5要素」のトレーニング",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "津越智雄の肩書き・監修体制は社内情報のため未変更。敬称「さん」のみ削除(A-6)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "中学生向けトレーニングの内容(BoS理論に基づくサッカーIQ)の表現とプログラム名を確認する。",
+   "current_text": "中学生はドイツの BoS 理論に基づくサッカーIQのトレーニングに取り組んでいます。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "プログラム内容は社内情報。BoS理論を「ドイツ」とする記述は2337(ヴュルテンベルクサッカー協会の資料が元)と矛盾しないため未変更。Brain of Soccerの記載なし"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "保崎淳氏が普段のトレーニングのメインコーチであること・経歴「元Jリーガー」を確認する。",
+   "current_text": "普段のトレーニングは、元Jリーガーの保崎淳がメインコーチとして担当しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "クライアント決定A-1/A-2(保崎淳=元Jリーガー・メインコーチ)と一致"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "「元Jリーガーのコーチが直接お話しします」が誰を指し、無料体験で実際に対応可能か確認する。",
+   "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。無料体験はLINEから申し込めます。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "途中CTAを「体験では、元Jリーガーでメインコーチの保崎淳が、お子さんの今の動きを見て直接お話しします。」に修正(クライアント決定A-1:無料体験で話すのは保崎淳)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "著者の経歴(清水エスパルス、2012年サンフレッチェ広島でJ1優勝)を確認する。",
+   "current_text": "清水エスパルス、サンフレッチェ広島(2012年 J1優勝)などでサイドバックとしてプレー。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "著者経歴。著者プロフィール欄と一致。プロフィールブロックは変更不可のため未変更"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "津越智雄氏の敬称(「さん」付け/呼び捨て)を記事間で統一するか確認する。",
+   "current_text": "元日本代表フィジカルコーチの津越智雄さんが監修した",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(2346・2353・2006は「さん」付け、2001・2031・2351・2395・2412は呼び捨て)",
+   "priority": "低",
+   "resolution": "修正",
+   "resolution_note": "「津越智雄さん」→「津越智雄」(A-6)。あわせてダックワースの「さん」も削除"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "保崎淳氏の経歴表現を記事間で統一するか確認する。",
+   "current_text": "元Jリーガーの保崎淳がメインコーチとして担当しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(2006・2323・2353は「Jリーグ4クラブ以上」、2337は「複数クラブ」、本記事は「元Jリーガー」のみ)",
+   "priority": "低",
+   "resolution": "修正",
+   "resolution_note": "A-2に合わせ「Jリーグの複数クラブでプレーした元Jリーガーの保崎淳」に統一"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「子供」表記が他記事の「子ども」表記と揃っているか確認する。",
+   "current_text": "子供に「サッカーを辞めたい」と言われて悩むお父さん・お母さんに向けて",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(2351・2353は「子ども」表記が中心)",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "本記事はメインKW「サッカー 辞めたい 子供 親」に合わせ「子供」表記で統一されており、事実の誤りではない"
+  }
+ ]
+}

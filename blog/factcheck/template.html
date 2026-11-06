@@ -1,0 +1,186 @@
+<title>GRITブログ 事実確認リスト</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Montserrat:wght@600;800&display=swap">
+<style>
+/* Layout: one reading column; summary → decisions → mismatches → per-article checklist with sticky filter bar */
+:root{
+  --bg:#f6f6f9; --surface:#ffffff; --fg:#14142b; --muted:#5d5f78; --line:#dcdde8;
+  --navy:#000032; --accent:#ee0044; --hi:#c8102e; --hi-bg:#fde8ec; --mid:#9a6400; --mid-bg:#fdf3dc; --lo:#4b5068; --lo-bg:#eceef5;
+  --ok:#0b7a4b; --ok-bg:#e3f5ec; --bad:#b4122f; --bad-bg:#fde8ec;
+  --sans:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans",sans-serif;
+  --display:"Montserrat","Noto Sans JP",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c0c1d; --surface:#15152b; --fg:#ececf6; --muted:#a3a5bf; --line:#2c2d48;
+  --navy:#c9cbe0; --accent:#ff4d7a; --hi:#ff7a93; --hi-bg:#3a1422; --mid:#f0b54a; --mid-bg:#33270e; --lo:#b6b9d0; --lo-bg:#23243d;
+  --ok:#4fd39a; --ok-bg:#10301f; --bad:#ff7a93; --bad-bg:#3a1422; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c0c1d; --surface:#15152b; --fg:#ececf6; --muted:#a3a5bf; --line:#2c2d48;
+  --navy:#c9cbe0; --accent:#ff4d7a; --hi:#ff7a93; --hi-bg:#3a1422; --mid:#f0b54a; --mid-bg:#33270e; --lo:#b6b9d0; --lo-bg:#23243d;
+  --ok:#4fd39a; --ok-bg:#10301f; --bad:#ff7a93; --bad-bg:#3a1422; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75}
+.wrap{max-width:1040px;margin:0 auto;padding-block:32px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:40px}
+header .eyebrow{font-family:var(--display);font-weight:800;letter-spacing:.18em;font-size:.72rem;color:var(--accent);margin:0}
+h1{font-size:1.75rem;font-weight:900;margin:.2em 0 .4em;text-wrap:balance;color:var(--navy)}
+h2{font-size:1.2rem;font-weight:900;margin:0 0 .3em;text-wrap:balance;color:var(--navy)}
+h3{font-size:1rem;font-weight:700;margin:0}
+p{margin:0}
+.lead{color:var(--muted);max-width:65ch}
+.stats{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 16px;min-width:120px}
+.stat b{display:block;font-family:var(--display);font-size:1.5rem;font-variant-numeric:tabular-nums}
+.stat span{font-size:.8rem;color:var(--muted)}
+.stat.done b{color:var(--ok)}
+section>.sub{color:var(--muted);font-size:.9rem;margin-bottom:14px}
+ul.crosses{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.cross{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.cross p{font-size:.88rem}
+.cross .where{color:var(--muted);font-size:.8rem}
+ul.mism{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+ul.mism li{display:flex;gap:12px;background:var(--bad-bg);border-radius:10px;padding:14px 16px}
+ul.mism li>div{min-width:0}
+.aid{font-family:var(--display);font-weight:800;font-variant-numeric:tabular-nums;color:var(--accent);flex:0 0 auto}
+.q{font-weight:700}
+.cur{font-size:.88rem}
+.res{font-size:.88rem;color:var(--bad)}
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.filters select,.filters input[type=search]{font:inherit;font-size:.88rem;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);min-width:0}
+.filters input[type=search]{flex:1 1 180px}
+.chip{font:inherit;font-size:.82rem;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--navy);color:var(--bg);border-color:var(--navy)}
+.chip:focus-visible,select:focus-visible,input:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.article{display:flex;flex-direction:column;gap:10px}
+.article-head{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;padding-top:8px}
+.article-head .aid{font-size:1.1rem}
+.article-head h3{flex:1 1 300px;min-width:0}
+.article-head .meta{font-size:.8rem;color:var(--muted)}
+.article-head a{color:var(--accent)}
+.item{display:grid;grid-template-columns:28px 1fr;gap:4px 12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.item.checked{opacity:.5}
+.item input{width:18px;height:18px;margin-top:4px;accent-color:var(--ok);cursor:pointer}
+.item .body{min-width:0;display:flex;flex-direction:column;gap:6px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:.72rem;font-weight:700;padding:1px 8px;border-radius:999px;background:var(--lo-bg);color:var(--lo)}
+.tag.p-高{background:var(--hi-bg);color:var(--hi)}
+.tag.p-中{background:var(--mid-bg);color:var(--mid)}
+.tag.s-ok{background:var(--ok-bg);color:var(--ok)}
+.tag.s-bad{background:var(--bad-bg);color:var(--bad)}
+.tag.s-mid{background:var(--mid-bg);color:var(--mid)}
+.tag.res{border:1px solid currentColor}
+dl{display:grid;grid-template-columns:5.5em 1fr;gap:4px 12px;margin:0;font-size:.88rem}
+dt{color:var(--muted);font-weight:500}
+dd{margin:0;min-width:0;overflow-wrap:anywhere}
+dd a{color:var(--accent)}
+.empty{color:var(--muted);text-align:center;padding:40px 0}
+@media (max-width:560px){dl{grid-template-columns:1fr}dt{margin-top:4px}}
+@media (prefers-reduced-motion:no-preference){.item{transition:opacity .15s}}
+</style>
+
+<div class="wrap">
+<header>
+  <p class="eyebrow">GRITCOACHING BLOG · REWRITE</p>
+  <h1>ブログ事実確認リスト</h1>
+  <p class="lead">リライトした13本(WordPressに下書き保存済み)の事実確認と、その対応結果です。出典や公的な情報源で確かめられたものは直し、確かめられない第三者の情報は言い切らない表現に弱めました。社内の情報で外から確かめられないものは「要確認(社内情報)」、書籍の本文で照合が必要なものは「要確認(書籍で照合)」として残しています。推測で値を書き込んだ箇所はありません。チェックした内容はこのブラウザにだけ保存されます。</p>
+  <div class="stats">
+    <div class="stat"><b>__NART__</b><span>記事</span></div>
+    <div class="stat"><b>__TOTAL__</b><span>確認項目</span></div>
+    <div class="stat"><b>__HIGH__</b><span>優先度「高」</span></div>
+    <div class="stat"><b>__NMISM__</b><span>出典と不一致</span></div>
+    <div class="stat done"><b id="doneCount">0</b><span>チェック済み</span></div>
+  </div>
+  <p class="sub" style="margin-top:20px">対応結果の内訳(確認が残っているもののうち優先度「高」: __OPENHIGH__件)</p>
+  <div class="stats">__RES__</div>
+</header>
+
+<section>
+  <h2>決定事項(複数の記事にまたがるもの)</h2>
+  <p class="sub">記事によって書き方が違っていた点です。いただいた回答をもとに、全記事をそろえました。</p>
+  <ul class="crosses">
+__CROSS__
+  </ul>
+</section>
+
+<section>
+  <h2>出典と食い違っていた項目</h2>
+  <p class="sub">記事が引用しているページを開いて照合したところ、記述と違っていたものです。どれも出典に合わせて直しました。</p>
+  <ul class="mism">
+__MISM__
+  </ul>
+</section>
+
+<section>
+  <h2>記事ごとの確認項目</h2>
+  <div class="filters" role="group" aria-label="絞り込み">
+    <select id="fArt" aria-label="記事"><option value="">すべての記事</option></select>
+    <button class="chip" id="fTodo" aria-pressed="false" type="button">確認が残っているものだけ</button>
+    <button class="chip" id="fHigh" aria-pressed="false" type="button">優先度「高」だけ</button>
+    <button class="chip" id="fOpen" aria-pressed="false" type="button">未チェックだけ</button>
+    <button class="chip" id="fSrc" aria-pressed="false" type="button">出典ありだけ</button>
+    <input type="search" id="fQ" placeholder="キーワードで絞り込み" aria-label="キーワード">
+  </div>
+  <div id="list"></div>
+</section>
+</div>
+
+<script>
+const ARTS = __DATA__;
+const KEY = "grit-factcheck-v1";
+let done = {};
+try { done = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const link = s => /^https?:\/\//.test(s) ? `<a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a>` : esc(s);
+const srcClass = s => s.startsWith("一致") || s.startsWith("URLは確認済み") ? "s-ok" : s.startsWith("不一致") ? "s-bad" : "";
+const srcLabel = s => s.startsWith("一致") ? "出典と一致" : s.startsWith("不一致") ? "出典と不一致" : s.startsWith("確認できず") ? "出典で確認できず" : s.startsWith("URLは確認済み") ? "一部確認済み" : "未確認";
+const PRI = {"高":0,"中":1,"低":2};
+const sel = document.getElementById("fArt");
+ARTS.forEach(a => sel.insertAdjacentHTML("beforeend", `<option value="${a.id}">${a.id} ${esc(a.title)}</option>`));
+const st = {art:"", todo:false, high:false, open:false, src:false, q:""};
+const RES = {"修正":"s-ok","確認済み":"s-ok","表現を弱めた":"s-mid","要確認(社内情報)":"s-bad","対応不要":""};
+function render(){
+  const out = [];
+  let n = 0;
+  for (const a of ARTS){
+    if (st.art && String(a.id) !== st.art) continue;
+    const items = a.items.map((it, i) => ({...it, key: a.id + ":" + i}))
+      .filter(it => (!st.todo || (it.resolution || "要確認").startsWith("要確認"))
+        && (!st.high || it.priority === "高")
+        && (!st.open || !done[it.key])
+        && (!st.src || /^https?:/.test(it.reference))
+        && (!st.q || JSON.stringify(it).includes(st.q)))
+      .sort((x, y) => PRI[x.priority] - PRI[y.priority]);
+    if (!items.length) continue;
+    n += items.length;
+    const draft = a.draft ? `<a href="https://gritcoaching.co.jp/wp-admin/post.php?post=${a.draft}&action=edit" target="_blank" rel="noopener">下書き ${a.draft} を開く</a>` : "";
+    out.push(`<div class="article"><div class="article-head"><span class="aid">${a.id}</span><h3>${esc(a.title)}</h3><span class="meta">${items.length}件 ${draft}</span></div>` +
+      items.map(it => `<label class="item${done[it.key] ? " checked" : ""}">
+        <input type="checkbox" data-k="${it.key}" id="c-${it.key.replace(":", "-")}"${done[it.key] ? " checked" : ""}>
+        <div class="body">
+          <div class="tags"><span class="tag p-${it.priority}">優先度 ${it.priority}</span><span class="tag">${esc(it.category)}</span><span class="tag ${srcClass(it.source_check)}">${srcLabel(it.source_check)}</span><span class="tag res ${RES[it.resolution] ?? "s-bad"}">対応: ${esc(it.resolution || "未対応")}</span></div>
+          <p class="q">${esc(it.what_to_check)}</p>
+          <dl><dt>現在の記述</dt><dd>「${esc(it.current_text)}」</dd>
+          <dt>参照元</dt><dd>${link(it.reference)}</dd>
+          ${it.source_check && it.source_check !== "未確認" ? `<dt>照合結果</dt><dd>${esc(it.source_check)}</dd>` : ""}
+          ${it.resolution_note ? `<dt>対応内容</dt><dd>${esc(it.resolution_note)}</dd>` : ""}</dl>
+        </div></label>`).join("") + `</div>`);
+  }
+  document.getElementById("list").innerHTML = out.join("") || `<p class="empty">条件に合う項目はありません。</p>`;
+  document.getElementById("doneCount").textContent = Object.values(done).filter(Boolean).length;
+}
+document.getElementById("list").addEventListener("change", e => {
+  const k = e.target.dataset.k; if (!k) return;
+  done[k] = e.target.checked; save();
+  e.target.closest(".item").classList.toggle("checked", e.target.checked);
+  document.getElementById("doneCount").textContent = Object.values(done).filter(Boolean).length;
+});
+sel.addEventListener("change", () => { st.art = sel.value; render(); });
+for (const [id, k] of [["fTodo","todo"],["fHigh","high"],["fOpen","open"],["fSrc","src"]]){
+  const b = document.getElementById(id);
+  b.addEventListener("click", () => { st[k] = !st[k]; b.setAttribute("aria-pressed", st[k]); render(); });
+}
+document.getElementById("fQ").addEventListener("input", e => { st.q = e.target.value.trim(); render(); });
+render();
+</script>

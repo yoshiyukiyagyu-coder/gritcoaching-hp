@@ -1,0 +1,126 @@
+{
+  "id": 2286,
+  "title": "サッカーでプロになるには？部活出身の元Jリーガーが語る環境選び",
+  "items": [
+    {
+      "category": "人物・体制",
+      "what_to_check": "中学時代に地域のトレセンに一度も選ばれなかったという経歴が事実か本人に確認する。",
+      "current_text": "実は辻尾は、中学時代は地元の部活でプレーし、地域のトレセンにも選ばれたことがなかった選手でした。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "辻尾本人の経歴(中学時代)。外部で確認できないため変更なし"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "当時の近隣の選択肢として「ガンバ大阪のジュニアユース」の名前を出してよいか確認する。",
+      "current_text": "近くだとガンバ大阪のジュニアユースに行くか、地元の中学に行くか、ぐらいの選択肢しかなかったんです。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "中",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "辻尾本人の体験談。外部で確認できないため変更なし"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "Jリーグ開幕戦を見たのが小学2年生のときで年齢・年代が合っているか確認する。",
+      "current_text": "漠然と憧れを持ったのは、小学2年生のときに見たJリーグの開幕戦です。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "中",
+      "resolution": "確認済み",
+      "resolution_note": "football-lab(https://www.football-lab.jp/player/603419)で生年月日1985年12月23日を確認。Jリーグ開幕(1993年5月)は小学2年生にあたり整合。視聴の事実自体は本人談"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "高校選手権の全国大会出場（初出場の時期・学年）が事実か確認する。",
+      "current_text": "本当に目標になったのは高校選手権で初めて全国大会に出たとき。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "中",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "辻尾本人の経歴(高校選手権出場)。外部の一次情報で確認できず変更なし"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "「清水エスパルスやサンフレッチェ広島などでプレーし、J1優勝も経験」の記述がプロフィールと一致しているか確認する。",
+      "current_text": "清水エスパルスやサンフレッチェ広島などでプレーし、J1優勝も経験した GRITcoaching 代表・辻尾真二へのインタビューをお届けします。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "確認済み",
+      "resolution_note": "著者プロフィールの経歴(2008-2012清水、2012広島(J1優勝))と一致。広島の2012年J1優勝はJリーグ公式(https://www.jleague.jp/j-tano/1300/)で確認"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "聞き手を「GRITcoaching 編集部」と表記してよいか（実際の聞き手）確認する。",
+      "current_text": "(聞き手:GRITcoaching 編集部)",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "低",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "聞き手の実態は社内情報。変更なし"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "GRITcoachingで現在フィジカルトレーニングを実施しているという記述が実際のプログラム内容と合っているか確認する。",
+      "current_text": "それこそ今 GRITcoaching でやっているようなフィジカルのトレーニングは、当時まったくしてこなかったので。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "中",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "現行プログラム内容は社内情報。変更なし"
+    },
+    {
+      "category": "記事間の不一致",
+      "what_to_check": "無料体験で辻尾本人が直接プレーを見るのか確認する（2031は「僕が直接お話しすることはできません」、2001はメインは保崎コーチと記載）。",
+      "current_text": "僕が直接お子さんのプレーを見て、保護者の皆さんと一緒に考えさせてもらいます。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "修正",
+      "resolution_note": "クライアント決定1に従い「僕が直接お子さんのプレーを見て」→「体験では、メインコーチで元Jリーガーの保崎淳がお子さんのプレーを見て」。CTA見出し「一度、グラウンドで会いましょう」も「まずは一度、グラウンドに来てみてください」に変更"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "中盤CTAの「元Jリーガーのコーチ」が無料体験で直接話すという体制が実態と合っているか確認する。",
+      "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。無料体験はLINEから申し込めます。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "対応不要",
+      "resolution_note": "「元Jリーガーのコーチ」は保崎淳(元Jリーガー・メインコーチ)を指し、決定1と整合"
+    },
+    {
+      "category": "連絡先",
+      "what_to_check": "LINE申込リンク（s.lmes.jp）が有効で無料体験の申込先として正しいか確認する。",
+      "current_text": "LINEで無料体験を申し込む",
+      "reference": "https://s.lmes.jp/landing-qr/2005957649-Lx6O9Wo7?uLand=tfTxc5",
+      "source_check": "確認できず: 申込用リンクのため本文照合の対象外（手動でリンク動作を確認）",
+      "priority": "高",
+      "resolution": "対応不要",
+      "resolution_note": "REWRITE_RULES.mdで指定された全CTA共通のLINE URLと一致"
+    },
+    {
+      "category": "時期表現",
+      "what_to_check": "構造化データの公開日・更新日が実際の公開日と合っているか確認する。",
+      "current_text": "\"datePublished\": \"2026-10-30\",",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "低",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "公開日は社内の公開記録で確認が必要。変更なし"
+    },
+    {
+      "category": "記事間の不一致",
+      "what_to_check": "インタビュアーの「辻尾さん」と地の文の「辻尾」（敬称なし）の使い分けが他記事の表記方針と揃っているか確認する。",
+      "current_text": "――小学生・中学生の頃の辻尾さんは、どんな選手でしたか？",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "低",
+      "resolution": "対応不要",
+      "resolution_note": "インタビュアーが本人に呼びかける二人称の「辻尾さん」で、第三者への敬称(決定6)には当たらない。地の文は敬称なしで統一済み"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+ "id": 2395,
+ "title": "小学生のサッカーが上達しない原因と親の声かけ|元Jリーガーが解説",
+ "items": [
+  {
+   "category": "統計・研究",
+   "what_to_check": "Aspen Instituteの2025年調査の年齢・人数・16%・18%・5競技中最高・29%の数値を確認する。",
+   "current_text": "アメリカの Aspen Institute が2025年に10〜17歳の約3,800人を対象に行った調査では、…(16%)、「親に他の選手と比べられる」(18%)…5競技の中で最も高い",
+   "reference": "https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings",
+   "source_check": "一致(2025年10〜12月実施、10〜17歳3,827人、サッカーは怒る/動揺16%・比較18%で5競技中最高。ただし負の親行動8項目中6項目はバスケットボールが最高)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings :10〜17歳3,827人、サッカーは怒る/動揺16%・比較18%で5競技中最高(事前チェックで一致)。本文は当該2項目に限定しており正確。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "スポーツを辞めた子が一番嫌だったこと「自分は十分うまくない」29%を確認する。",
+   "current_text": "スポーツを辞めた子が一番嫌だったこととして挙げたのは「自分は十分うまくない」(29%)でした",
+   "reference": "https://projectplay.org/news/aspen-institute-national-survey-of-youth-and-sports-15-key-findings",
+   "source_check": "一致(\"I'm not good enough\" 29%が1位)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "同出典で辞めた子の最も嫌だったこと\"I'm not good enough\"29%が1位(事前チェックで一致)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "JFAハンドブック「めざせ!ベストサポーター」の引用文言を確認する。",
+   "current_text": "「走れ!」「そうじゃない!なんでおまえは…」と口を出してしまうお父さんの例…「コーチはコーチに任せましょう」「やるのは子ども。主役は子ども。…」",
+   "reference": "https://jfa.jp/youth_development/players_first/pdf/best_supporter_book.pdf",
+   "source_check": "一致(3つの引用文言とも資料内に原文どおりあり)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "https://jfa.jp/youth_development/players_first/pdf/best_supporter_book.pdf に3つの引用文言が原文どおりあり(事前チェックで一致)。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "GRITcoaching設立のきっかけ(身体操作がおろそかな子が多いと感じた)が会社の公式説明と合うか確認する。",
+   "current_text": "僕が GRITcoaching を立ち上げたのも、まさにここがきっかけでした。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "設立のきっかけは辻尾本人の体験談。外部確認不可のため現状維持。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "津越智雄氏の肩書き「元日本代表フィジカルコーチ」と小学生コース監修体制が現状どおりか確認する。",
+   "current_text": "GRITcoaching の小学生コースは、元日本代表フィジカルコーチの津越智雄がメニューを監修し、スピード・持久力・筋力・柔軟性・バランスの「フィジカル5要素」…",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "津越智雄の肩書き・監修体制は社内情報。本文は敬称なしで決定6と整合。外部確認不可のため現状維持。"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「フィジカル5要素」の名称と5項目が公式のコース説明と一致しているか確認する。",
+   "current_text": "スピード・持久力・筋力・柔軟性・バランスの「フィジカル5要素」",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "「フィジカル5要素」の名称・5項目は社内のコース説明。他記事(2001等)とも同じ5項目で一致。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "保崎淳氏が現在も通常トレーニングのメインコーチであるか、「元Jリーガー」表記を確認する。",
+   "current_text": "普段のトレーニングは、元Jリーガーの保崎淳がメインコーチとして担当しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "保崎淳がメインコーチ・元Jリーガーである点は決定1・2と整合。現体制かは社内確認。"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "監修者の敬称が記事間で揃っているか確認する(2006・2346・2353は「津越智雄さん」、本記事は敬称なし)。",
+   "current_text": "元日本代表フィジカルコーチの津越智雄がメニューを監修",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "本記事は敬称なしで決定6(第三者に「さん」を付けない)に合致。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "無料体験で実際に対応するのが誰か(元Jリーガーのコーチ=保崎淳か、辻尾本人か)を確認する。",
+   "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "「元Jリーガーのコーチ」はメインコーチの保崎淳(元Jリーガー)を指し、クライアント決定1(無料体験は保崎淳が担当)と整合するため変更不要。"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "無料体験申込のLINE URLが正しく、現在も受付中であるか確認する。",
+   "current_text": "LINEで無料体験を申し込む",
+   "reference": "https://s.lmes.jp/landing-qr/2005957649-Lx6O9Wo7?uLand=tfTxc5",
+   "source_check": "未確認(申込導線のため手動で動作確認)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "URLはREWRITE_RULES指定のLINE URLと一致し、2026-11-06にHTTP 200で応答することを確認。受付状況そのものは社内で手動確認を推奨。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDのアイキャッチ画像URLが実在するか確認する(本文には出ない)。",
+   "current_text": "\"image\": \"https://gritcoaching.co.jp/wp-content/uploads/2026/11/not-improving-kids-chase.jpg\"",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "2026-11-06に画像URLへアクセスしHTTP 200(image/jpeg)を確認。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDの公開日・更新日が実際の公開内容と合うか確認する(URLは確認済み)。",
+   "current_text": "\"@id\": \"https://gritcoaching.co.jp/blog/blog/elementary-soccer-not-improving-parents/\"",
+   "reference": "記事内に出典なし",
+   "source_check": "URLは確認済み: /blog/blog/{slug}/ が正式なURLで、/blog/{slug}/ はWordPressが301で転送している。日付は未確認",
+   "priority": "中",
+   "resolution": "対応不要",
+   "resolution_note": "URLは正規形 /blog/blog/{slug}/。datePublished 2026-11-05/dateModified 2026-11-06(リライト日、ルールどおり)で問題なし。"
+  }
+ ]
+}

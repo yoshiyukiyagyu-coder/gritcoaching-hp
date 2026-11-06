@@ -1,0 +1,256 @@
+{
+ "id": 2412,
+ "title": "中学サッカーのセレクション対策|元Jリーガーが教える前日の親の声かけ",
+ "items": [
+  {
+   "category": "日程・場所",
+   "what_to_check": "FC東京U-15むさし 2027年度加入1次セレクションの日付を確認する。",
+   "current_text": "FC東京U-15むさしが2027年度加入の1次セレクションを2026年5月23日に行っています",
+   "reference": "https://www.fctokyo.co.jp/?p=333686",
+   "source_check": "一致(2026年5月23日(土)、予備日5月24日)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.fctokyo.co.jp/?p=333686 :2026年5月23日(土)実施(事前チェックで一致)。"
+  },
+  {
+   "category": "日程・場所",
+   "what_to_check": "FC東京の受験承諾書(所属チーム代表者の署名)の要件を確認する。",
+   "current_text": "FC東京では、所属チームがある場合、チーム代表者の署名入り受験承諾書の提出が求められています",
+   "reference": "https://www.fctokyo.co.jp/?p=333686",
+   "source_check": "一致(「所属チーム代表者(監督など)の直筆署名が必須」と記載)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "同ページに「所属チーム代表者(監督など)の直筆署名が必須」(事前チェックで一致)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "J下部の小6向け一般セレクション時期(夏〜秋)と6〜7月頃に枠が決まる旨の報道を確認する。",
+   "current_text": "J下部の小6向け一般セレクションは夏から秋が中心で、小6の6〜7月頃には多くの枠が決まっている、という報道もあります",
+   "reference": "https://number.bunshun.jp/articles/-/851913",
+   "source_check": "一致(2022年2月4日掲載。「夏から秋にかけて」「遅くても6月から7月までには決まり…定員数はほぼ埋まる」)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "https://number.bunshun.jp/articles/-/851913 (2022年2月4日)「夏から秋にかけて」「遅くても6月から7月までには決まり…」(事前チェックで一致)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "首都圏・関西圏のJクラブ一般セレクション倍率「300倍超」の報道を確認する。",
+   "current_text": "首都圏や関西圏のJクラブの一般セレクションは、300倍を超えることもあると報じられたことがあります",
+   "reference": "https://number.bunshun.jp/articles/-/851913",
+   "source_check": "一致(「首都圏と関西圏で300倍以上になることも珍しくない」)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "同記事「首都圏と関西圏で300倍以上になることも珍しくない」(事前チェックで一致)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "静岡県の練習会(小6春〜夏)・セレクション(夏〜秋)の時期と記事日付を確認する。",
+   "current_text": "静岡県では、練習会は小6の春〜夏、セレクションは夏〜秋が多いと紹介されています",
+   "reference": "https://www.at-s.com/shizusaka/article/ats/1721796.html",
+   "source_check": "一致(更新日2025年6月10日)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.at-s.com/shizusaka/article/ats/1721796.html (2025年6月10日更新)と一致。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "静岡県内で10〜12月に日程を組む地域クラブが多数紹介されているか確認する。",
+   "current_text": "静岡県内の例では、10月〜12月に日程を組む地域クラブが数多く紹介されていました",
+   "reference": "https://www.at-s.com/shizusaka/article/ats/1682875.html",
+   "source_check": "一致(更新日2024年9月30日、約19チームを掲載)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.at-s.com/shizusaka/article/ats/1682875.html (2024年9月30日更新、約19チーム掲載)と一致。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "清水エスパルスのジュニア監督の発言(声・ドリブル・50m走)と肩書き・記事日付を確認する。",
+   "current_text": "清水エスパルスのジュニア(小学生年代)の監督は、…「何も考えずドリブルで突っ込んで、ボールを奪われてるだけだな」…「タイムだけで不合格にすることはない」",
+   "reference": "https://www.at-s.com/shizusaka/article/ats/1682516.html",
+   "source_check": "一致(更新日2024年12月19日。話者は清水エスパルスU-12清水の監督。発言は原文どおり)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.at-s.com/shizusaka/article/ats/1682516.html (2024年12月19日更新、清水エスパルスU-12清水の監督)発言は原文どおり。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "同監督の「100パーセント違う」発言を確認する。",
+   "current_text": "「エスパルスに落ちたからもう駄目だ、というのは100パーセント違う」と話しています",
+   "reference": "https://www.at-s.com/shizusaka/article/ats/1682516.html",
+   "source_check": "一致",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "同記事に「100パーセント違う」発言あり(事前チェックで一致)。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "親の性格・態度は合否に関係しないが声は耳に入る、という同監督の発言を確認する(本文は出典表記なし、同記事に依拠)。",
+   "current_text": "親の性格や態度は特にチェックしておらず合否には関係しない、ただ、いろいろな声は耳に入ってくる、と話しています",
+   "reference": "https://www.at-s.com/shizusaka/article/ats/1682516.html",
+   "source_check": "一致(「特にはしていません」「いろんな声は耳に入ってきます」「合否に関係することはありません」)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "同記事「特にはしていません」「いろんな声は耳に入ってきます」「合否に関係することはありません」と一致。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "ジュニアサッカーNEWSの評価ポイント列挙を確認する。",
+   "current_text": "「今何をすべきか分かっているか」「伸びしろ」「チームへの貢献」「コミュニケーション」などが挙げられています",
+   "reference": "https://www.juniorsoccer-news.com/post-7205",
+   "source_check": "一致(ページに日付表記なし。2018年頃の投稿とみられる)",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.juniorsoccer-news.com/post-7205 の列挙と一致(ページに日付表記なし)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "合格基準を公表するクラブは少なくチーム構成で決まることもある旨と、更新日を確認する。",
+   "current_text": "合格基準を細かく公表しているクラブは多くありませんし、チーム構成との兼ね合いで決まることもあります(出典:ヴェルディ相模原SUENO、2026年10月更新)",
+   "reference": "https://verdysagamihara-sueno.or.jp/jryouth-selection-toha/",
+   "source_check": "一致(最終更新日時2026年10月5日)",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "https://verdysagamihara-sueno.or.jp/jryouth-selection-toha/ (最終更新2026年10月5日)と一致。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "当日の朝食・会場入口確認のアドバイスが出典と合うか確認する。",
+   "current_text": "朝ごはんは食べ慣れたものを。会場の入口や集合場所も、前日までに確認しておくと慌てずに済みます",
+   "reference": "https://verdysagamihara-sueno.or.jp/jryouth-selection-toha/",
+   "source_check": "一致",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "同ページの当日の準備アドバイスと一致(事前チェックで一致)。"
+  },
+  {
+   "category": "時期表現",
+   "what_to_check": "見出しの「11月から」や「小6の秋」「今の時期」が公開時期とずれないか確認する。",
+   "current_text": "11月から受けるセレクションは何が多い?小学6年の進路の時期を整理",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "対応不要",
+   "resolution_note": "公開日(2026年11月)と「11月から」「小6の秋」の時期表現は整合。"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "プロ在籍年数の表記が他記事・経歴(2008〜2018)と矛盾しないか確認する。",
+   "current_text": "プロの世界で10年あまり「選ばれる側」にいた僕の目から",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "修正",
+   "resolution_note": "決定5に従い「プロの世界で10年あまり」→「プロの世界で10年以上」に修正。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "中学時代にガンバ大阪ジュニアユースに行かず地元中学の部活でプレーした経歴を確認する(2006・2286・2397/2412で共通記述)。",
+   "current_text": "僕自身、中学はガンバ大阪のジュニアユースには行かず、地元の中学の部活でプレーしました。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "辻尾本人の経歴。2397・著者プロフィールと同じ記述で記事間は整合。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "河岸貴氏の肩書き(元VfBシュトゥットガルト育成アカデミーコーチ)と監修、辻尾が全体統括という体制を確認する。",
+   "current_text": "監修は元VfBシュトゥットガルト育成アカデミーコーチの河岸貴、毎週のトレーニングは元Jリーガーの保崎淳がメインコーチを務め、僕が全体を統括しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "河岸貴の肩書き・監修、保崎淳メインコーチ、辻尾統括の体制は社内情報。保崎の表記は決定1・2と整合。"
+  },
+  {
+   "category": "日程・場所",
+   "what_to_check": "インテリジェンスU15の練習日時・会場(毎週木曜19:00〜21:00、スポルティーボ南与野)を確認する。",
+   "current_text": "練習は毎週木曜19:00〜21:00、スポルティーボ南与野で行っています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "日時・会場(毎週木曜19:00〜21:00、スポルティーボ南与野)はクライアント決定3で正しいと確認済み。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "インテリジェンスU15の対象が「中学生男子」で正しいか確認する(2397は「中学生向け」)。",
+   "current_text": "GRITcoaching の中学生男子向けプログラム「グリットコーチング・インテリジェンスU15」",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "決定3に従い「中学生男子向けプログラム」→「中学生男女向けプログラム」に修正。"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "BoS理論の説明(ドイツのサッカーを体系化)とゲーゲンプレスの定義が監修者の説明・2337記事と合うか確認する。",
+   "current_text": "BoS理論では、ボールを持っていない時間も「攻撃」ととらえ、ボールを失った直後の数秒で取り返しに行くこと(ゲーゲンプレス)を大切にします。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "修正",
+   "resolution_note": "決定4に従い「ドイツのサッカーを体系化したBoS理論」→「ボールを中心に考える「BoS理論」(河岸貴の著書『サッカー「BoS理論」 ボールを中心に考え、ゴールを奪う方法』で紹介されている考え方)」に修正。ゲーゲンプレスの定義(失った直後に奪い返す)は2337と一致。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "津越智雄氏の肩書き「元日本代表フィジカルコーチ」と小学生コース監修体制が現状どおりか確認する。",
+   "current_text": "小学生のうちは、元日本代表フィジカルコーチの津越智雄がメニューを監修する小学生コースで",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "津越智雄の肩書き・監修体制は社内情報。敬称なしで決定6と整合。"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "監修者の敬称が記事間で揃っているか確認する(2323・2337は「河岸貴さん」、本記事は敬称なし)。",
+   "current_text": "監修は元VfBシュトゥットガルト育成アカデミーコーチの河岸貴",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "本記事は敬称なしで決定6に合致。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "無料体験で実際に対応するのが誰か(元Jリーガーのコーチ=保崎淳か、辻尾本人か)を確認する。",
+   "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "「元Jリーガーのコーチ」はメインコーチの保崎淳(元Jリーガー)を指し、クライアント決定1(無料体験は保崎淳が担当)と整合するため変更不要。"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "無料体験申込のLINE URLが正しく、現在も受付中であるか確認する。",
+   "current_text": "LINEで無料体験を申し込む",
+   "reference": "https://s.lmes.jp/landing-qr/2005957649-Lx6O9Wo7?uLand=tfTxc5",
+   "source_check": "未確認(申込導線のため手動で動作確認)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "URLはREWRITE_RULES指定のLINE URLと一致し、2026-11-06にHTTP 200で応答することを確認。受付状況そのものは社内で手動確認を推奨。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDのアイキャッチ画像URLが実在するか確認する(本文には出ない)。",
+   "current_text": "\"image\": \"https://gritcoaching.co.jp/wp-content/uploads/2026/11/012-2026-11-05-eyecatch.jpg\"",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "2026-11-06に画像URLへアクセスしHTTP 200(image/jpeg)を確認。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDの公開日・更新日が実際の公開内容と合うか確認する(URLは確認済み)。",
+   "current_text": "\"@id\": \"https://gritcoaching.co.jp/blog/blog/junior-high-soccer-selection-tips/\"",
+   "reference": "記事内に出典なし",
+   "source_check": "URLは確認済み: /blog/blog/{slug}/ が正式なURLで、/blog/{slug}/ はWordPressが301で転送している。日付は未確認",
+   "priority": "中",
+   "resolution": "対応不要",
+   "resolution_note": "URLは正規形 /blog/blog/{slug}/。datePublished 2026-11-05/dateModified 2026-11-06(リライト日、ルールどおり)で問題なし。"
+  }
+ ]
+}

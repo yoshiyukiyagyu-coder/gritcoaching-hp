@@ -1,0 +1,186 @@
+{
+ "id": 2351,
+ "title": "トレセンに落ちた子への声かけ|元Jリーガーが語る親ができること",
+ "items": [
+  {
+   "category": "統計・研究",
+   "what_to_check": "トレセンの段階(地区・都道府県・地域・ナショナル)と「全国9地域」の区分を確認する。",
+   "current_text": "地区、都道府県、地域(全国9地域)、ナショナルと段階があり",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "JFAトレセン認定ページで地域/都道府県/ブロック・地区トレセンとナショナルトレセンの区分、地域9つ(北海道〜九州)を確認。https://www.jfa.jp/youth_development/national_tracen/nt_certification.html"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "JFAがトレセンの目標として「チーム強化ではなく『個の育成』」を掲げている記述を確認する。",
+   "current_text": "JFA は「チーム強化ではなく『個の育成』」を目標に掲げています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "修正",
+   "resolution_note": "JFA原文「トレセンでは、チーム強化ではなく、あくまでも「個」を高めることが目標です。」に合わせ引用文言を修正。https://www.jfa.jp/youth_development/national_tracen/"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "ナショナルトレセン案内の引用文言「選手の潜在的な力、将来性、個性等を重視」が原文どおりか確認する。",
+   "current_text": "JFA のナショナルトレセンの案内には、選考について「選手の潜在的な力、将来性、個性等を重視」すると書かれています。",
+   "reference": "JFA のナショナルトレセンの案内(URLなし)",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "JFAナショナルトレセンU-15(2026)案内に「選手の潜在的な力、将来性、個性等を重視し、後の日本代表へとつながる選手を選出する。」と記載。https://jfa.jp/youth_development/national_tracen_u15_2026/about.html"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "Sasanoほか(2020)で、Jリーガーの4〜6月生まれが1〜3月生まれの約2倍という数値を確認する。",
+   "current_text": "日本の男子プロ選手を25年分調べた研究(Sasano ほか, 2020)では、Jリーガーでも4〜6月生まれは1〜3月生まれのおよそ2倍いました。",
+   "reference": "Sasano ほか, 2020(URLなし)",
+   "source_check": "未確認(URLなし。※記事2353が同研究をPMCのURL付きで引用しており、そちらの照合では一致: サッカーQ1/Q4は約2.1〜2.5倍)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "Sasano et al. 2020(PMC7538493)Table1でサッカーのQ1/Q4は約2.1〜2.5倍(2353の照合結果と同一論文)。https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538493/"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "Hirose(2009)の研究内容(年度前半生まれが多い・骨成熟度や体格の関与)を確認する。",
+   "current_text": "日本の育成年代のエリート選手を調べた研究(Hirose, 2009)でも、年度の前半に生まれた選手が多く、その偏りには骨の成熟度や体格の個人差が関係している可能性",
+   "reference": "Hirose, 2009(URLなし)",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "表現を弱めた",
+   "resolution_note": "Hirose 2009(J Sports Sci 27(11):1159-66, doi:10.1080/02640410903225145)抄録で、エリート育成選手332人の生まれ月の偏りと「骨年齢・体格の個人差に一定程度依存する可能性」を確認。対象の国籍は抄録に明記なしのため「日本の」を削除"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "「1〜3月生まれでもプロになった選手は毎年確実にいる」と言い切れるか確認する。",
+   "current_text": "1〜3月生まれでもプロになった選手は毎年確実にいる。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "表現を弱めた",
+   "resolution_note": "「毎年確実にいる」は年単位では未確認。Sasano 2020の表でQ4(1〜3月)生まれのJリーガーが各期に多数いることは確認できるため「たくさんいる」に変更(本文・FAQとも)"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "メタdescriptionの「早生まれのデータ」が本文の内容(研究紹介)と対応しているか確認する。",
+   "current_text": "トレセン本来の目的と選考の考え方、早生まれのデータ、落選直後のNG対応と3ステップの声かけ",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "本文に生まれ月の研究紹介があり、メタdescriptionと対応している"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "著者の経歴「高校・大学を経て清水エスパルスでプロ」(大学経由)が正しいか確認する。",
+   "current_text": "そこから高校・大学を経て、清水エスパルスでプロになり、サンフレッチェ広島では2012年のJ1優勝も経験しました。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(「大学」に触れているのは全記事中この記事のみ。プロフィール欄にも大学の記載なし)",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "著者の個人経歴(大学経由か)。プロフィールに大学記載なし。社内確認が必要なため未変更"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "著者の中学時代(地元の部活)・高校選手権全国出場の経歴を確認する。",
+   "current_text": "中学は地元の部活でプレーして、高校選手権で全国大会に出たときに初めて「プロで戦えるかもしれない」と思った。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "著者の個人経歴。プロフィール欄と一致のため未変更"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "津越智雄氏の肩書きと小学生メニュー監修、5要素の内容を確認する。",
+   "current_text": "小学生は元日本代表フィジカルコーチの津越智雄が監修したメニューで、スピード・持久力・筋力・柔軟性・バランスの「フィジカル5要素」",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "津越智雄の肩書き・監修・5要素は社内情報のため未変更"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "U15プログラムの名称・対象(中学生男子)・河岸貴氏の肩書きと監修体制を確認する。",
+   "current_text": "中学生男子向けの「グリットコーチング・インテリジェンスU15」では、元VfBシュトゥットガルト育成アカデミーコーチの河岸貴が監修するBoS理論",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "「中学生男子向け」→「中学生男女向け」(A-3)。河岸貴の肩書き・監修体制は社内情報(2337と整合)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "小学生・中学生の両コースともメインコーチが保崎淳氏であることを確認する。",
+   "current_text": "どちらも、ピッチで指導するメインコーチは元Jリーガーの保崎淳です。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "A-1(保崎淳=メインコーチ)、2337(U15)・2353(小学生)の記述と整合"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "「元Jリーガーのコーチが直接お話しします」が無料体験で実際に可能か確認する。",
+   "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。無料体験はLINEから申し込めます。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "途中CTAを「体験では、元Jリーガーでメインコーチの保崎淳が、お子さんの今の動きを見て直接お話しします。」に修正(クライアント決定A-1:無料体験で話すのは保崎淳)"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "グリットの定義(ダックワース)の表現を確認する。",
+   "current_text": "心理学者のアンジェラ・ダックワースは、グリットを「長期的な目標に向けた情熱と粘り強さ」と定義しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "Duckworth et al. (2007) JPSP「Grit: perseverance and passion for long-term goals」。https://doi.org/10.1037/0022-3514.92.6.1087"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「認知・判断・実行」「半身(オープンな体の向き)」の用語が一般的な指導用語として適切か確認する。",
+   "current_text": "サッカーのプレーは「認知(見る)・判断(選ぶ)・実行(やる)」の繰り返しで",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "確認済み",
+   "resolution_note": "JFAアカデミー今治の記事に「状況を認知し…次のプレーを判断し、実行することを、素早く繰り返し行う」とあり一般的な指導用語。https://jfa.jp/youth_development/jfa_academy/imabari/news/00035824/ 。「半身」は本文で動作を平易に説明済み"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "敬称の統一(本記事は津越智雄・河岸貴を呼び捨て、2323・2337・2346・2353は「さん」付け)を確認する。",
+   "current_text": "元VfBシュトゥットガルト育成アカデミーコーチの河岸貴が監修するBoS理論",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "本記事は元から敬称なし(A-6どおり)"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "内部リンクの文言が2353記事の実タイトルと合っているか確認する。",
+   "current_text": "小学生サッカーの当たり負けは筋力だけが原因じゃないでも詳しく解説しています。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(2353の見出しは「小学生サッカーの当たり負け対策|原因と体の使い方を元Jリーガーが解説」)",
+   "priority": "低",
+   "resolution": "修正",
+   "resolution_note": "リンク文言を2353の実タイトルに合わせ「小学生サッカーの当たり負け対策(原因と体の使い方)」に修正"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "「グリットコーチング・インテリジェンスU15」の表記(カタカナ)とブランド表記GRITcoachingの併用でよいか確認する。",
+   "current_text": "「グリットコーチング・インテリジェンスU15」",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認(2323・2337・2397・2412も同表記)",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "カタカナのプログラム名は2337等と同表記。A-6の対象は英字ブランド表記で、GRITcoachingの誤表記なし"
+  }
+ ]
+}

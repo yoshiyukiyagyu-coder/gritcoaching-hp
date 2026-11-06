@@ -1,0 +1,166 @@
+{
+ "id": 2397,
+ "title": "中学サッカーは部活かクラブチームか|元Jリーガーが両立・費用を比較",
+ "items": [
+  {
+   "category": "統計・研究",
+   "what_to_check": "部活動ガイドラインの活動時間(平日2時間・休日3時間・週11時間程度・週2日以上休養)を確認する。",
+   "current_text": "1日の活動時間は長くとも平日2時間程度、休日3時間程度、週あたり11時間程度までとし、週2日以上の休養日を設けることになっています",
+   "reference": "https://www.mext.go.jp/sports/content/20251222-spt_oripara-000046180_00234.pdf / https://www.mext.go.jp/sports/b_menu/sports/mcatetop01/list/jsa_00017.html",
+   "source_check": "一致(ガイドライン本文に同内容の記載あり)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.mext.go.jp/sports/content/20251222-spt_oripara-000046180_00234.pdf 本文に平日2時間程度・休日3時間程度・週11時間程度・週2日以上の休養日の記載あり(事前チェックで一致)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "ガイドラインの発行主体と時期(「スポーツ庁・文化庁が2025年12月」)を確認する。",
+   "current_text": "スポーツ庁・文化庁が2025年12月に出したガイドラインでは",
+   "reference": "https://www.mext.go.jp/sports/content/20251222-spt_oripara-000046180_00234.pdf",
+   "source_check": "不一致: ガイドライン表紙の発行者は「令和7年12月 文部科学省」(時期は一致、発行主体の表記が異なる)",
+   "priority": "中",
+   "resolution": "修正",
+   "resolution_note": "ガイドライン表紙は「令和7年12月 文部科学省」。「スポーツ庁・文化庁が2025年12月に出した」→「文部科学省が2025年12月に出した」に修正。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "改革実行期間(2026〜2031年度)と休日部活動の原則全面地域展開の目標を確認する。",
+   "current_text": "国は2026年度から2031年度までを「改革実行期間」とし、休日の部活動は、この期間内に原則すべて地域のクラブ活動へ移すことを目指しています。",
+   "reference": "https://www.mext.go.jp/sports/content/20251222-spt_oripara-000046180_00234.pdf / https://www.mext.go.jp/sports/b_menu/sports/mcatetop01/list/jsa_00017.html",
+   "source_check": "一致(令和8〜13年度の6年間。休日は「改革実行期間内に、原則、全ての学校部活動において地域展開の実現を目指す」)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "同ガイドライン/スポーツ庁FAQ:改革実行期間は令和8〜13年度、休日は期間内に原則全ての学校部活動で地域展開を目指す(事前チェックで一致)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "国の調査の公表時期(2026年4月)と2026年度の地域展開予定割合(休日約3割・平日1割弱)を確認する。",
+   "current_text": "2026年4月に公表された国の調査では、2026年度に休日で約3割、平日で1割弱の部活動が地域クラブ活動になる予定とされています",
+   "reference": "https://www.mext.go.jp/sports/content/20260817-spt_oripara-000028257_01.pdf",
+   "source_check": "一致(表紙「令和8年4月」、休日R8予定約3割(30.4%)、平日「1割弱」と記載)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.mext.go.jp/sports/content/20260817-spt_oripara-000028257_01.pdf 表紙「令和8年4月」、休日R8予定約3割(30.4%)、平日「1割弱」(事前チェックで一致)。"
+  },
+  {
+   "category": "料金",
+   "what_to_check": "地域クラブ参加費の国のイメージ額(月4日程度で月額1,000〜3,000円)を確認する。",
+   "current_text": "国は休日に月4日程度活動する場合で月額1,000〜3,000円程度を「イメージ」として示しています(同FAQ)",
+   "reference": "https://www.mext.go.jp/sports/b_menu/sports/mcatetop01/list/jsa_00017.html",
+   "source_check": "一致(週1日・月4日程度で「月額1,000円～3,000円程度」。数百円〜4,000円程度もあり得るとの注記あり)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.mext.go.jp/sports/b_menu/sports/mcatetop01/list/jsa_00017.html 週1日・月4日程度で「月額1,000円～3,000円程度」(事前チェックで一致)。"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「地域移行」が現在「地域展開」と呼ばれていることを確認する。",
+   "current_text": "部活動の「地域移行」です。今は「地域展開」と呼ばれています。",
+   "reference": "https://www.mext.go.jp/sports/content/20251222-spt_oripara-000046180_00234.pdf",
+   "source_check": "一致(ガイドラインに「従来の『地域移行』という名称を『地域展開』に変更」と記載)",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "ガイドラインに「従来の『地域移行』という名称を『地域展開』に変更」と記載(事前チェックで一致)。"
+  },
+  {
+   "category": "料金",
+   "what_to_check": "箕面市地域クラブ一覧のサッカークラブの会費(最安・最高)を確認する。",
+   "current_text": "月4,000円+年会費1,500円ほどのクラブから、週5日活動して全国規模の大会も目指すクラブの月13,000円+年会費25,000円まで",
+   "reference": "https://www.city.minoh.lg.jp/jidoseito/chiikitenkai/documents/01soccer.pdf",
+   "source_check": "一致(キックオフ彩都「月4,000～6,000円＋年会費1,500円」(4,000円は週1回コース)、PALLAZIA「月13,000円＋年会費25,000円」火水木土日、日本クラブユース選手権等に参加)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "https://www.city.minoh.lg.jp/jidoseito/chiikitenkai/documents/01soccer.pdf キックオフ彩都「月4,000～6,000円＋年会費1,500円」、PALLAZIA「月13,000円＋年会費25,000円」(事前チェックで一致)。"
+  },
+  {
+   "category": "統計・研究",
+   "what_to_check": "クラブ費用の全国相場を示す公的データが無いという記述を確認する。",
+   "current_text": "全国の相場を示す公的なデータは、僕が調べた範囲では見つかりませんでした。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "「僕が調べた範囲では見つかりませんでした」と筆者の調査範囲に限定した表現で、断定ではないため変更不要。"
+  },
+  {
+   "category": "時期表現",
+   "what_to_check": "「小学6年生の秋」「今の小6」「2026年度に…予定」など時期依存の表現が公開時期に合うか確認する。",
+   "current_text": "小学6年生の秋になると、このご相談を保護者の方からよくいただきます。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "対応不要",
+   "resolution_note": "公開日(2026年11月)は小6の秋にあたり時期表現と整合。「2026年度に…予定」は2026年4月公表の調査の記述として正確。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "中学時代がJリーグ発足間もない頃だったこと、ガンバ大阪ジュニアユースに行かず地元中学の部活だった経歴を確認する。",
+   "current_text": "僕が中学生だったのはJリーグが始まって間もないころで、…僕はガンバ大阪のジュニアユースには行かず、地元の中学の部活でプレーしました。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "辻尾本人の経歴(中学は地元の部活、ガンバ大阪ジュニアユースに行かず)。著者プロフィールとも整合。外部確認不可のため現状維持。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "高校選手権で全国大会に出場した経歴を確認する。",
+   "current_text": "プロを本気で目標にしたのは、高校選手権で全国大会に出てからです。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "辻尾本人の経歴(高校選手権で全国大会出場)。著者プロフィールとも整合。"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "インテリジェンスU15の対象が「中学生向け」(本記事)か「中学生男子」(2323・2337・2412)か表記を揃える。",
+   "current_text": "GRITcoaching には、中学生向けに、この「考える力」を学ぶグリットコーチング・インテリジェンスU15があります。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "決定3に従い「中学生向けに」→「中学生男女向けに」に修正。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "無料体験で実際に対応するのが誰か(元Jリーガーのコーチ=保崎淳か、辻尾本人か)を確認する。",
+   "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "「元Jリーガーのコーチ」はメインコーチの保崎淳(元Jリーガー)を指し、クライアント決定1(無料体験は保崎淳が担当)と整合するため変更不要。"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "無料体験申込のLINE URLが正しく、現在も受付中であるか確認する。",
+   "current_text": "LINEで無料体験を申し込む",
+   "reference": "https://s.lmes.jp/landing-qr/2005957649-Lx6O9Wo7?uLand=tfTxc5",
+   "source_check": "未確認(申込導線のため手動で動作確認)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "URLはREWRITE_RULES指定のLINE URLと一致し、2026-11-06にHTTP 200で応答することを確認。受付状況そのものは社内で手動確認を推奨。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDのアイキャッチ画像URLが実在するか確認する(本文には出ない)。",
+   "current_text": "\"image\": \"https://gritcoaching.co.jp/wp-content/uploads/2026/11/junior-high-youth-match.jpg\"",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "2026-11-06に画像URLへアクセスしHTTP 200(image/jpeg)を確認。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDの公開日・更新日が実際の公開内容と合うか確認する(URLは確認済み)。",
+   "current_text": "\"@id\": \"https://gritcoaching.co.jp/blog/blog/junior-high-soccer-club-or-school-team/\"",
+   "reference": "記事内に出典なし",
+   "source_check": "URLは確認済み: /blog/blog/{slug}/ が正式なURLで、/blog/{slug}/ はWordPressが301で転送している。日付は未確認",
+   "priority": "中",
+   "resolution": "対応不要",
+   "resolution_note": "URLは正規形 /blog/blog/{slug}/。datePublished 2026-11-05/dateModified 2026-11-06(リライト日、ルールどおり)で問題なし。"
+  }
+ ]
+}

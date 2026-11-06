@@ -1,0 +1,96 @@
+{
+ "id": 2393,
+ "title": "サッカーの試合に出られない子に親ができること|元Jリーガーの声かけ",
+ "items": [
+  {
+   "category": "統計・研究",
+   "what_to_check": "JFAが2011年にU-12主催大会を8人制に移行したこと、資料名と引用文言を確認する。",
+   "current_text": "JFA(日本サッカー協会)は、2011年に U-12 年代の主催大会を8人制に移行した際の資料で、「1試合の中での全員出場を規則とはしませんが、自由な交代を活用し…",
+   "reference": "https://www.jfa.jp/youth_development/players_first/pdf/8system.pdf",
+   "source_check": "一致(引用文言は資料内に原文どおりあり。資料名『8人制サッカーをしよう!』、発行日2011年2月10日、「JFA U-12年代主催大会8人制移行」と記載)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "出典PDF(https://www.jfa.jp/youth_development/players_first/pdf/8system.pdf)『8人制サッカーをしよう!』(2011年2月10日)に引用文言が原文どおりあることを事前チェックで確認済み。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "FAQ回答のJFA資料要約が本文・資料の内容と一致しているか確認する(FAQ構造化データは無く本文表示のみ)。",
+   "current_text": "JFAの資料では、たくさんの子にプレー機会を与えることが趣旨とされていますが、1試合の中での全員出場は規則とはされていません。",
+   "reference": "https://www.jfa.jp/youth_development/players_first/pdf/8system.pdf",
+   "source_check": "一致",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "同PDFの趣旨(全員出場は規則としないが多くのプレー機会を)と一致。FAQは本文表示のみでJSON-LDにFAQなし。"
+  },
+  {
+   "category": "用語",
+   "what_to_check": "「オフザボール」の表記・説明が他記事(2323等)の用語と揃っているか確認する。",
+   "current_text": "サッカー用語で「オフザボール」と呼ばれる部分です",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "対応不要",
+   "resolution_note": "2323でも同じ「オフザボール」表記を使用しており記事間で統一されている。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "辻尾氏がプロ時代「本来なら先発に入るような選手ではなかった」とする自己評価の表現を本人に確認する。",
+   "current_text": "僕自身、器用な選手ではなく、本来なら先発に入るような選手ではありませんでした。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "低",
+   "resolution": "要確認(社内情報)",
+   "resolution_note": "辻尾本人の自己評価(体験談)。外部確認不可のため現状維持。"
+  },
+  {
+   "category": "人物・体制",
+   "what_to_check": "無料体験で実際に対応するのが誰か(元Jリーガーのコーチ=保崎淳か、辻尾本人か)を確認する。",
+   "current_text": "元Jリーガーのコーチが、お子さんの今の動きを見て直接お話しします。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "対応不要",
+   "resolution_note": "「元Jリーガーのコーチ」はメインコーチの保崎淳(元Jリーガー)を指し、クライアント決定1(無料体験は保崎淳が担当)と整合するため変更不要。"
+  },
+  {
+   "category": "記事間の不一致",
+   "what_to_check": "末尾CTAの「僕が直接お話し」が、代表は普段ピッチに立たないとする他記事(2001等)の体制説明と矛盾しないか確認する。",
+   "current_text": "今のお子さんに何が必要か、僕が直接お話しして、一緒に考えさせてもらえたらうれしいです。",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "高",
+   "resolution": "修正",
+   "resolution_note": "決定1に従い末尾CTAの「僕が直接お話しして」を「体験では、メインコーチで元Jリーガーの保崎淳が、今のお子さんに何が必要かをお話しします」に修正。"
+  },
+  {
+   "category": "連絡先",
+   "what_to_check": "無料体験申込のLINE URLが正しく、現在も受付中であるか確認する。",
+   "current_text": "LINEで無料体験を申し込む",
+   "reference": "https://s.lmes.jp/landing-qr/2005957649-Lx6O9Wo7?uLand=tfTxc5",
+   "source_check": "未確認(申込導線のため手動で動作確認)",
+   "priority": "高",
+   "resolution": "確認済み",
+   "resolution_note": "URLはREWRITE_RULES指定のLINE URLと一致し、2026-11-06にHTTP 200で応答することを確認。受付状況そのものは社内で手動確認を推奨。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDのアイキャッチ画像URLが実在するか確認する(本文には出ない)。",
+   "current_text": "\"image\": \"https://gritcoaching.co.jp/wp-content/uploads/2026/11/bench-kids-sideline.jpg\"",
+   "reference": "記事内に出典なし",
+   "source_check": "未確認",
+   "priority": "中",
+   "resolution": "確認済み",
+   "resolution_note": "2026-11-06に画像URLへアクセスしHTTP 200(image/jpeg)を確認。"
+  },
+  {
+   "category": "構造化データのみ",
+   "what_to_check": "JSON-LDの公開日・更新日が実際の公開内容と合うか確認する(URLは確認済み)。",
+   "current_text": "\"@id\": \"https://gritcoaching.co.jp/blog/blog/child-not-playing-soccer-matches/\"",
+   "reference": "記事内に出典なし",
+   "source_check": "URLは確認済み: /blog/blog/{slug}/ が正式なURLで、/blog/{slug}/ はWordPressが301で転送している。日付は未確認",
+   "priority": "中",
+   "resolution": "対応不要",
+   "resolution_note": "URLは正規形 /blog/blog/{slug}/。datePublished 2026-11-05/dateModified 2026-11-06(リライト日、ルールどおり)で問題なし。"
+  }
+ ]
+}

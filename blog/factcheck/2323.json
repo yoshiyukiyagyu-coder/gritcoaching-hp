@@ -1,0 +1,216 @@
+{
+  "id": 2323,
+  "title": "U15サッカーのインテリジェンスとは?元Jリーガーが語るオフザボール",
+  "items": [
+    {
+      "category": "人物・体制",
+      "what_to_check": "倉本和昌さん・坪井健太郎さんの経歴と、インテリジェンスの3要素の整理が出典記事と合っているか確認する。",
+      "current_text": "スペインで指導経験のある倉本和昌さんと坪井健太郎さんの対談では、インテリジェンスを「判断の質」「判断のスピード」「実行のスピード」と整理しています",
+      "reference": "https://jr-soccer.jp/2018/12/14/post106147/",
+      "source_check": "一致（両氏ともスペインでの指導歴あり。ただし3要素は倉本氏の発言として述べられており、対談全体の定義ではない）",
+      "priority": "中",
+      "resolution": "修正",
+      "resolution_note": "敬称を削除し「倉本和昌と坪井健太郎の対談では、倉本がインテリジェンスを…と整理」に修正。出典(https://jr-soccer.jp/2018/12/14/post106147/)では3要素は倉本氏の発言"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "中学生の視野が成人より狭いという指摘の出典名「広島大学附属校の保健体育教材」が適切か確認する。",
+      "current_text": "中学生は大人に比べて視野が狭く、ボールばかりに意識が集中しやすい、という指摘もあります",
+      "reference": "https://www.hiroshima-u.ac.jp/system/files/156433/252physicaleducation2.pdf",
+      "source_check": "一致（「一般的に成人に比べて中学生の視野は狭く，ボールばかりに意識が集中してしまい」と記載。資料は中学校保健体育科の学習指導案）",
+      "priority": "中",
+      "resolution": "修正",
+      "resolution_note": "出典名を「広島大学附属校の保健体育教材」→「広島大学附属校の保健体育科学習指導案」に修正。資料(https://www.hiroshima-u.ac.jp/system/files/156433/252physicaleducation2.pdf)は中学校保健体育科の学習指導案で、「一般的に成人に比べて中学生の視野は狭く…」と記載"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "ブンデスリーガ60試合・平均約1分21秒という数値と著者・年が出典と合っているか確認する。",
+      "current_text": "ドイツ・ブンデスリーガの60試合を追跡した研究では、フル出場した選手1人が1試合でボールをコントロールしている時間は、平均で約1分21秒",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503225/",
+      "source_check": "一致（Link & Hoernig, 2017, PLoS ONE。60試合、IBC 1:21±1:13 min）",
+      "priority": "高",
+      "resolution": "確認済み",
+      "resolution_note": "Link & Hoernig, 2017, PLoS ONE(https://pmc.ncbi.nlm.nih.gov/articles/PMC5503225/)。60試合、IBC 1:21±1:13 min"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "リーグアンの平均53.4秒（Carling, 2010）の数値と書誌情報を確認する。",
+      "current_text": "フランス・リーグアンを対象にした別の研究では、平均53.4秒という数字も出ています(Carling, 2010, Journal of Sports Sciences)",
+      "reference": "Carling, 2010, Journal of Sports Sciences（URLなし）",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "確認済み",
+      "resolution_note": "Europe PMC(https://europepmc.org/search?query=AUTH%3A%22Carling%20C%22%20AND%20%22running%20with%20the%20ball%22)の抄録で Carling C, J Sports Sci 2010「Analysis of physical activity profiles when running with the ball in a professional soccer team」: French League 1の30試合、\"Mean time in possession ... 53.4 +/- 8.1 s\" を確認"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "「90分の約98%はボールを持っていない時間」という独自概算の表現が誤解を招かないか確認する。",
+      "current_text": "試合の約98%はボールを持っていない時間という計算になります。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "中",
+      "resolution": "確認済み",
+      "resolution_note": "本文で「ブンデスリーガの平均値をもとにした僕の概算」「U15で同じ数字になるわけではない」と明記済み。81/5400≈1.5%で計算も正しい"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "ジョルデ氏の研究が「プレミアリーグ」「受ける前の10秒間」を対象とし、64%/81%だったという記述を確認する。",
+      "current_text": "プレミアリーグの選手がボールを受ける前の10秒間に、どれだけ首を振って周りを見ているかを分析しました。",
+      "reference": "https://www.skysports.com/football/news/11096/11119387/what-gave-xavi-hernandez-and-andrea-pirlo-an-edge-on-the-rest-the-secret-to-his-vision",
+      "source_check": "不一致: 64%・81%と2017年の記事日付は一致するが、研究の分析対象として「受ける前の10秒間」という記述は出典になく（10秒はイニエスタのW杯決勝の例のみ）、出典は118試合・64選手の研究と記載",
+      "priority": "高",
+      "resolution": "修正",
+      "resolution_note": "Sky Sports記事(https://www.skysports.com/football/news/11096/11119387/...)は \"The study looked into the search frequency of 64 players over 118 games\" と記載。10秒はイニエスタのW杯決勝の例のみ。「プレミアリーグの選手がボールを受ける前の10秒間に」→「選手64人・118試合を対象に、ボールを受ける前に」に修正(64%/81%は出典どおり)"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "ゲイル・ヨルデ氏の所属（ノルウェー体育大学）と表記を確認する。",
+      "current_text": "ノルウェー体育大学のゲイル・ヨルデ(Geir Jordet)氏ら",
+      "reference": "https://www.skysports.com/football/news/11096/11119387/what-gave-xavi-hernandez-and-andrea-pirlo-an-edge-on-the-rest-the-secret-to-his-vision",
+      "source_check": "確認できず: 引用記事では所属を確認できず",
+      "priority": "低",
+      "resolution": "確認済み",
+      "resolution_note": "Jordet et al., 2020, Frontiers in Psychologyの著者所属に \"Norwegian School of Sport Sciences, Oslo, Norway\"(Europe PMC書誌情報で確認)。ノルウェー体育大学の表記で問題なし"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "2020年の追加研究の結論「小さいが、プラス」と、寄せられると首振りが減るという記述を確認する。",
+      "current_text": "その効果は「小さいが、プラス」と結論づけられています(Jordet et al., 2020, …)",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7573254/",
+      "source_check": "一致（\"scanning seems to have a small, but positive role\"。1シーズン・21試合、強いプレッシャー下で首振りが減ると記載。Europe PMCの書誌情報で確認）",
+      "priority": "中",
+      "resolution": "確認済み",
+      "resolution_note": "Europe PMC抄録で \"scanning seems to have a small, but positive role\"、\"relatively lower scanning frequency in situations with tight opponent pressure\" を確認(https://pmc.ncbi.nlm.nih.gov/articles/PMC7573254/)"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "攻撃側のオフ・ザ・ボールの役割の整理と出典名「広島大学附属中・高等学校 指導案」を確認する。",
+      "current_text": "攻撃側のオフ・ザ・ボールの役割は「ボールを持っている味方のプレーの選択肢を増やすこと」と整理されています",
+      "reference": "https://www.hiroshima-u.ac.jp/system/files/225052/2018hotai_02.pdf",
+      "source_check": "一致（「ボール保持者のプレーの選択肢を増やすための動き出しが求められる」と記載。対象は高Ⅱ年生の保健体育科学習指導案）",
+      "priority": "低",
+      "resolution": "確認済み",
+      "resolution_note": "出典PDFに「ボール保持者のプレーの選択肢を増やすための動き出しが求められる」と記載。対象は広島大学附属中・高等学校の高Ⅱ保健体育科学習指導案"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "相手陣形が整わない「3〜5秒」、ゴールまで「約60m／約15m」という数値の根拠を確認する。",
+      "current_text": "その切り替えの途中、だいたい3〜5秒は、相手の陣形がまだ整っていない。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "中",
+      "resolution": "表現を弱めた",
+      "resolution_note": "「3〜5秒」の根拠を確認できず。「その切り替えの途中、だいたい3〜5秒は、相手の陣形がまだ整っていない」→「その切り替えの途中は、相手の陣形がまだ整っていない」"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "自陣で奪うと約60m、相手陣内なら約15mという距離の根拠を確認する。",
+      "current_text": "自陣まで戻ってから奪うとゴールまで約60m、相手陣内ですぐ奪い返せば約15m。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "中",
+      "resolution": "表現を弱めた",
+      "resolution_note": "約60m/約15mの根拠を確認できず。「自陣まで戻ってから奪うとゴールまで約60m、相手陣内ですぐ奪い返せば約15m」→「自陣まで戻ってから奪うより、相手陣内ですぐ奪い返したほうが、ゴールまでの距離はずっと短い」"
+    },
+    {
+      "category": "統計・研究",
+      "what_to_check": "サイドバックのボールコントロール時間「約1分18秒」が出典と合っているか確認する。",
+      "current_text": "サイドバックがボールをコントロールしている時間は1試合で約1分18秒でした(Link & Hoernig, 2017)",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503225/",
+      "source_check": "一致（Table 4: full-backs 1:18±0:56 min）",
+      "priority": "中",
+      "resolution": "確認済み",
+      "resolution_note": "Link & Hoernig, 2017 Table 4: full-backs 1:18±0:56 min"
+    },
+    {
+      "category": "用語",
+      "what_to_check": "BoS理論のドイツ語表記「Ballorientiertes Spiel」が、2337の「Das Ballorientierte Spiel」と揃っているか確認する。",
+      "current_text": "ドイツの戦術思想「BoS理論(Ballorientiertes Spiel/ボール中心の戦い)」",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "低",
+      "resolution": "修正",
+      "resolution_note": "2337・出版社ページ(https://www.kanzen.jp/book/b10040205.html の内容紹介に \"Das Ballorientierte Spiel\")に合わせ「BoS理論(Ballorientiertes Spiel/ボール中心の戦い)」→「BoS理論(Das Ballorientierte Spiel/ボールを中心に考える理論)」。決定4に従い「ドイツの戦術思想」を外し、河岸貴の著書で紹介されている考え方である旨を追記"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "河岸貴さんの発言として引用した一文が本人の確認済みの言葉か確認する。",
+      "current_text": "監修の河岸貴さんも「日本とドイツの決定的な差は『非保持時の連動』にあります」と話しています。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "監修者がGRITcoachingに語った発言とみられ外部で確認できない。敬称のみ削除(「河岸貴さんも」→「河岸貴も」)し、発言内容は変更なし"
+    },
+    {
+      "category": "記事間の不一致",
+      "what_to_check": "河岸さんの著書名を確認する（2337は『サッカー「BoS理論」 ボールを中心に考え、ゴールを奪う方法』、カンゼン公式も同名。「現代サッカーの教科書」は2337では連載名）。",
+      "current_text": "監修は、元VfBシュトゥットガルト育成アカデミーコーチで『現代サッカーの教科書 BoS理論』の著者・河岸貴さん。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "修正",
+      "resolution_note": "書名を『現代サッカーの教科書 BoS理論』→『サッカー「BoS理論」 ボールを中心に考え、ゴールを奪う方法』(カンゼン公式 https://www.kanzen.jp/book/b10040205.html)に修正。敬称も削除"
+    },
+    {
+      "category": "記事間の不一致",
+      "what_to_check": "保崎淳コーチの経歴「Jリーグ4クラブ以上でプレー」の表記を確認する（2337は「複数クラブ」、2006は「4クラブ以上で活躍」）。",
+      "current_text": "Jリーグ4クラブ以上でプレーした元Jリーガーの保崎淳がメインコーチを務め、「勝つための守備」や「駆け引き」を指導しています。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "修正",
+      "resolution_note": "クライアント決定2に従い「Jリーグ4クラブ以上でプレーした」→「Jリーグの複数クラブでプレーした」"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "プログラム名「グリットコーチング・インテリジェンスU15」と月間サイクル（第1週〜第4週）の内容が現行どおりか確認する。",
+      "current_text": "第1週 オンライン講座",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "プログラム名・月間サイクルは社内情報。変更なし"
+    },
+    {
+      "category": "人物・体制",
+      "what_to_check": "ドイツのクラブへの練習参加の案内を現在も行っているか確認する。",
+      "current_text": "優秀な選手には、ドイツのクラブへの練習参加のご案内もしています。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "要確認(社内情報)",
+      "resolution_note": "ドイツのクラブへの練習参加案内は社内情報。変更なし"
+    },
+    {
+      "category": "日程・場所",
+      "what_to_check": "対象・曜日・時間・会場が現行どおりか確認する。",
+      "current_text": "対象は中学生男子(中1〜中3)。毎週木曜日の19:00〜21:00、スポルティーボ南与野で活動しています。",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "高",
+      "resolution": "修正",
+      "resolution_note": "クライアント決定3に従い「中学生男子」→「中学生男女」(あわせて「中学生向けプログラム」→「中学生男女向けプログラム」)。日時・会場は正しいため変更なし"
+    },
+    {
+      "category": "連絡先",
+      "what_to_check": "LINE申込リンクが有効で正しい申込先か確認する。",
+      "current_text": "LINEで無料体験を申し込む",
+      "reference": "https://s.lmes.jp/landing-qr/2005957649-Lx6O9Wo7?uLand=tfTxc5",
+      "source_check": "確認できず: 申込用リンクのため本文照合の対象外（手動でリンク動作を確認）",
+      "priority": "高",
+      "resolution": "対応不要",
+      "resolution_note": "REWRITE_RULES.mdで指定された全CTA共通のLINE URLと一致"
+    },
+    {
+      "category": "記事間の不一致",
+      "what_to_check": "監修者の敬称を確認する（本記事は「河岸貴さん」、2351・2412は「河岸貴」で敬称なし）。",
+      "current_text": "『現代サッカーの教科書 BoS理論』の著者・河岸貴さん",
+      "reference": "記事内に出典なし",
+      "source_check": "未確認",
+      "priority": "低",
+      "resolution": "修正",
+      "resolution_note": "クライアント決定6に従い「河岸貴さん」→「河岸貴」(本文中の他の「さん」付けも削除)"
+    }
+  ]
+}
