@@ -183,6 +183,15 @@ a {
   font-family: var(--font-ja);
 }
 
+.hero-keyword {
+  display: block;
+  font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
 .hero-actions {
   display: flex;
   gap: 20px;
@@ -496,8 +505,21 @@ a {
 
 .course-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+}
+
+.course-more-link {
+  display: block;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-accent);
+  transition: opacity var(--transition);
+}
+
+.course-more-link:hover {
+  opacity: 0.8;
 }
 
 .course-card {
