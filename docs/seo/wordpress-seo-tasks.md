@@ -217,8 +217,11 @@ Search Console「検索パフォーマンス」を過去3か月でエクスポ�
    記事の投稿者は WordPress ユーザー `auto_write`（自動投稿用、権限は編集者）で、プロフィールが空だった。そのため AIOSEO の構造化データでは著者（Person）が「auto_write」になり、本文の Article にある著者「辻尾真二（GRITcoaching 代表 / 元プロサッカー選手）」と食い違っていた。
    対応: `auto_write` のプロフィールを REST API（`POST /wp-json/wp/v2/users/me`、自動投稿と同じアプリケーションパスワード）で変更した。姓「辻尾」・名「真二」・ニックネームと表示名「辻尾真二」、Webサイト `https://gritcoaching.co.jp/`、プロフィール情報（経歴）を入力。変更前は表示名が auto_write で、ほかの欄は空だった。
    確認: 記事の構造化データの著者（Person）が「辻尾真二」になり、Article の著者と一致した。全記事が同じユーザーなので全記事に反映される。ログイン名と自動投稿の設定は変えていない。
-   著者ページのURLも同じ日に `/blog/author/auto_write/` → **`/blog/author/tsujio-shinji/`** に変更した（ユーザーの `slug` を変更）。新しいURLは表示でき（200）、記事の構造化データの著者URLも新しいURLになった。古いURLは404になり、転送は設定していない（サイトマップには載っておらず、構造化データでしか使われていなかったため）。
-   残り: プロフィール写真は Gravatar の初期画像のまま。
+   著者ページのURLも同じ日に `/blog/author/auto_write/` → **`/blog/author/tsujio-shinji/`** に変更した（ユーザーの `slug` を変更）。新しいURLは表示でき（200）、記事の構造化データの著者URLも新しいURLになった。古いURLは、念のため 301 で新しいURLへ転送している（下記）。
+   プロフィール写真と転送（2026-11-10、プラグイン `grit-top2026` バージョン 202611101058）:
+   - 写真: WordPress 標準では Gravatar しか使えないため、プラグインで `auto_write` ユーザーのアバターをメディアの `author-tsujio.jpg`（メディアID 2285）に差し替えた（`pre_get_avatar_data`。150px 以下はサムネイル、それより大きいときは 300px の画像を使う）。記事の構造化データの著者（Person）の image が `author-tsujio-150x150.jpg` になったことを確認
+   - 転送: `/blog/author/auto_write/` が404になるときだけ、`/blog/author/tsujio-shinji/` へ 301 転送する。本番で 301 → 新しいURLが 200 になることを確認
+   - プラグインの元データは `~/claude/grit HP/tools/build_wordpress.py`。ユーザーのログイン名 `auto_write` とメディアID 2285 を前提にしているので、ログイン名を変えたり写真を削除したりした場合はプラグインも直す
 
 2. **トップページのシェア用画像がロゴ（1098×368px）だった → 画像を作成済み、設定はこれから**
    横長のロゴなので、LINE・X・Facebook でシェアしたときにカードが小さく出たり切れたりする。1200×630px の画像を作った。
