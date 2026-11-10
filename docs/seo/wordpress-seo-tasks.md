@@ -272,6 +272,20 @@ AIOSEO Pro の「ローカルSEO」でも LocalBusiness の構造化データを
 
 ### 気づいた点
 
-- **著者ページ（`/blog/author/tsujio-shinji/`）は、テーマ側の処理でトップページへ移動する**（中身は `window.location.href = '/'` だけ）。以前からの動きで、検索には出ない。AIOSEO Pro の「著者SEO」は著者ページに情報を出す機能なので、このままでは効果がない。使う場合は、著者ページを表示させるかどうかを先に決める
+- 著者ページ（`/blog/author/tsujio-shinji/`）は、テーマ側の処理でトップページへ移動していた（中身は `window.location.href = '/'` だけ）。→ 同じ日に表示するようにした（下記）
 - AIOSEO の Organization の `sameAs` は Instagram だけ。**All in One SEO → ソーシャルネットワーク → ソーシャルプロフィール** に YouTube（`https://www.youtube.com/@GRITcoaching2024`）も入れると、会社とスクールの SNS がそろう
 - メディアにシェア用画像が2回アップロードされている可能性がある（使われているのはファイル名の後ろに `-1` が付いた方）。使っていない方は削除してよい
+
+### 著者ページを表示するようにした（2026-11-10、`grit-top2026` バージョン 202611101118）
+
+- プラグインに著者ページのテンプレート（`templates/author.php`）を追加し、テーマの「トップへ移動」を使わないようにした
+- 内容: パンくず（ホーム › ブログ › 辻尾真二）、名前と肩書き、プロフィール欄（写真、WordPress のプロフィール情報の経歴文、選手経歴、Instagram・YouTube へのリンク）、執筆した記事の一覧（1ページ12件、ページ送りあり）
+- WordPress 標準では著者ページに「投稿」しか出ないため、ブログ・お知らせの記事が出るようにした（`pre_get_posts`）
+- 確認（本番、ログアウト状態）:
+  - 200で表示され、記事カードが12件ある。2ページ目も表示できる
+  - title は「辻尾真二 | GRITcoaching」。description はプロフィール情報の経歴文
+  - canonical は自分自身のURL。robots は `max-image-preview:large` だけで、noindex ではない
+  - 構造化データに AIOSEO Pro の ProfilePage と Person（辻尾真二・写真つき）が出ている
+  - 古いURL `/blog/author/auto_write/` は引き続き 301 で転送される
+  - パソコン・スマホの両方で表示崩れがない
+- 経歴文を変えるときは、管理画面の **ユーザー → `auto_write` → プロフィール情報** を直す（ページの説明文にも使われる）。選手経歴と肩書きはプラグインの元データ（`~/claude/grit HP/tools/build_wordpress.py` の `AUTHOR_MAIN`）にある
