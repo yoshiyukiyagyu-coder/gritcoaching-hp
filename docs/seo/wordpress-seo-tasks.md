@@ -1,7 +1,7 @@
 # WordPress（本番サイト）SEO作業手順
 
 対象: https://gritcoaching.co.jp/ （WordPress 6.5.3 ＋ All in One SEO 4.6.1.1 ＋ Site Kit by Google）
-※ AIOSEO は 2026-11-10 に 5.0.5 へ更新済み
+※ AIOSEO は 2026-11-10 に 5.0.5 へ更新し、同じ日に **AIOSEO Pro** を契約・有効化した（10章）
 根拠: Search Console「検索パフォーマンス」過去3か月（2026-08-08〜11-07）のエクスポート
 
 > メニュー名は日本語表示の管理画面を前提にしています。バージョンによって表記が少し違うことがあります。
@@ -223,7 +223,7 @@ Search Console「検索パフォーマンス」を過去3か月でエクスポ�
    - 転送: `/blog/author/auto_write/` が404になるときだけ、`/blog/author/tsujio-shinji/` へ 301 転送する。本番で 301 → 新しいURLが 200 になることを確認
    - プラグインの元データは `~/claude/grit HP/tools/build_wordpress.py`。ユーザーのログイン名 `auto_write` とメディアID 2285 を前提にしているので、ログイン名を変えたり写真を削除したりした場合はプラグインも直す
 
-2. **トップページのシェア用画像がロゴ（1098×368px）だった → 画像を作成済み、設定はこれから**
+2. **トップページのシェア用画像がロゴ（1098×368px）だった → 2026-11-10 設定済み**（本番の `og:image` が `wp-content/uploads/2026/11/grit-ogp-1200x630-1.jpg` になったことを確認）
    横長のロゴなので、LINE・X・Facebook でシェアしたときにカードが小さく出たり切れたりする。1200×630px の画像を作った。
    - 画像: `docs/seo/ogp/grit-ogp-1200x630.jpg`（JPEG、約228KB）。作り直し用の元データは `docs/seo/ogp/ogp.html`
    - 内容: サイトと同じネイビー（#000032）と赤（#ee0044）。左にロゴ（白抜き）、「さいたま市・南与野の小学生・中学生サッカースクール」、キャッチコピー「やり抜く力と正しい努力で才能を凌駕する」、「元Jリーガーが指導｜U12・U15コース」。右はトップのヒーローと同じU12の写真。文字はカードの端が切れても読めるよう中央寄りに置いた
@@ -237,3 +237,41 @@ Search Console「検索パフォーマンス」を過去3か月でエクスポ�
 ### 設定後の確認
 
 記事のURLを Google リッチリザルト テスト（https://search.google.com/test/rich-results?hl=ja）にかけ、「記事」「パンくずリスト」「FAQ」が検出されてエラーが0件か確認する。
+
+## 10. AIOSEO Pro の導入（2026-11-10）
+
+AIOSEO Pro を契約し、有効化した。本番の出力は「All in One SEO Pro 5.0.5」になっている。無料版の設定（タイトル・説明文・noindex・サイトマップ・ソーシャル）はそのまま引き継がれた。
+
+### 二重出力がないかの確認（ログアウト状態）
+
+トップ・U12・U15・記事（`elementary-soccer-slow-runner-tips`）で確認した。
+
+- `<title>`・description・robots・canonical・og・twitter のタグは、どのページも **1つずつ**。エラー表示もない
+- 構造化データ: AIOSEO のもの（BreadcrumbList・Organization・WebPage・WebSite、記事は Person も）が1つ。トップには独自の SportsOrganization、記事には本文に埋め込んだ Article・FAQPage がある。種類の重複はない
+- **記事のスキーマ設定は「なし」のままにする。** Pro で Article を足すと、本文の Article と二重になる
+
+### ローカルSEO は使わない（スクール情報は今の SportsOrganization のまま）
+
+トップには、スクール情報（`#school`）がすでに SportsOrganization として出ている。中身は、スクール名、さいたま市が対象地域であること、練習場所のスポルティーヴォ南与野、YouTube・Instagram。AIOSEO の Organization（`#organization`）とは `parentOrganization` でつながっている。
+
+AIOSEO Pro の「ローカルSEO」でも LocalBusiness の構造化データを出せるが、**有効にしない**ことにした。理由は2つ。
+
+- 今の SportsOrganization と同じ内容が二重になる
+- ローカルSEO は会社の住所（本社）を出す作りになっている。Google ビジネスプロフィールでは新宿の住所を非表示にして対象地域だけを出しているので、合わせない方がよい
+
+地域での検索は、Google ビジネスプロフィールと SportsOrganization で対応する。スクール情報を変えるとき（練習場所・曜日が変わったときなど）は、`grit-top2026` プラグインの元データ（`~/claude/grit HP/index.html` の SportsOrganization）を直す。
+
+### Pro で使うとよい機能（未設定）
+
+| 機能 | やること |
+|---|---|
+| IndexNow | 機能マネージャーで有効にするだけ。記事の公開・更新を Bing などにすぐ通知する |
+| Search Statistics（検索統計） | Google アカウントを接続すると、Search Console の数字を WordPress の中で見られる |
+| リダイレクト | 今は使っていない。著者ページの古いURLの転送は `grit-top2026` プラグインで行っている（9章） |
+| 画像SEO | 代替テキストの自動補完。自動投稿の記事で使える |
+
+### 気づいた点
+
+- **著者ページ（`/blog/author/tsujio-shinji/`）は、テーマ側の処理でトップページへ移動する**（中身は `window.location.href = '/'` だけ）。以前からの動きで、検索には出ない。AIOSEO Pro の「著者SEO」は著者ページに情報を出す機能なので、このままでは効果がない。使う場合は、著者ページを表示させるかどうかを先に決める
+- AIOSEO の Organization の `sameAs` は Instagram だけ。**All in One SEO → ソーシャルネットワーク → ソーシャルプロフィール** に YouTube（`https://www.youtube.com/@GRITcoaching2024`）も入れると、会社とスクールの SNS がそろう
+- メディアにシェア用画像が2回アップロードされている可能性がある（使われているのはファイル名の後ろに `-1` が付いた方）。使っていない方は削除してよい
