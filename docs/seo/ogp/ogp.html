@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+<!-- 作り直し用。logo.png と course-u12.jpg（~/claude/grit HP/assets/images/）を同じフォルダに置き、Chrome ヘッドレスで 1200x630 のスクリーンショットを撮る。
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars --window-size=1200,630 --screenshot=ogp.png file://$PWD/ogp.html -->
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:630px;overflow:hidden;background:#000032;font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif}
+.photo{position:absolute;top:0;right:0;width:620px;height:630px;background:url(course-u12.jpg) 38% center/cover;clip-path:polygon(140px 0,100% 0,100% 100%,0 100%)}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,50,.45),rgba(0,0,50,0) 45%)}
+.stripe{position:absolute;inset:0;background:#ee0044;clip-path:polygon(706px 0,722px 0,582px 630px,566px 630px)}
+.panel{position:absolute;left:72px;top:0;height:630px;width:600px;display:flex;flex-direction:column;justify-content:center}
+.logo{width:250px;filter:brightness(0) invert(1);margin-bottom:44px}
+.kw{display:inline-block;align-self:flex-start;background:#ee0044;color:#fff;font-weight:700;font-size:19px;letter-spacing:.03em;padding:8px 14px;margin-bottom:22px}
+h1{color:#fff;font-weight:800;font-size:56px;line-height:1.28;letter-spacing:.02em}
+.sub{color:rgba(255,255,255,.85);font-weight:500;font-size:22px;margin-top:28px;letter-spacing:.04em}
+.sub b{color:#fff;font-weight:700}
+</style></head><body>
+<div class="photo"></div><div class="stripe"></div>
+<div class="panel">
+<img class="logo" src="logo.png">
+<span class="kw">さいたま市・南与野の小学生・中学生サッカースクール</span>
+<h1>やり抜く力と<br>正しい努力で<br>才能を凌駕する</h1>
+<p class="sub"><b>元Jリーガー</b>が指導｜U12・U15コース</p>
+</div></body></html>
